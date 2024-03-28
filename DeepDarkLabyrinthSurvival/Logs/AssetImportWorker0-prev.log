@@ -15,7 +15,7 @@ D:/GitHub/DeepDarkLabyrinthSurvival/DeepDarkLabyrinthSurvival
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64521
+64776
 Successfully changed project path to: D:/GitHub/DeepDarkLabyrinthSurvival/DeepDarkLabyrinthSurvival
 D:/GitHub/DeepDarkLabyrinthSurvival/DeepDarkLabyrinthSurvival
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ D:/GitHub/DeepDarkLabyrinthSurvival/DeepDarkLabyrinthSurvival
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 57.62 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.67 ms.
+Refreshing native plugins compatible for Editor in 62.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.76 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/GitHub/DeepDarkLabyrinthSurvival/DeepDarkLabyrinthSurvival/Assets
@@ -63,54 +63,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003990 seconds.
+Registered in 0.004595 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 54.26 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Refreshing native plugins compatible for Editor in 57.10 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.417 seconds
+- Completed reload, in  0.443 seconds
 Domain Reload Profiling:
-	ReloadAssembly (417ms)
-		BeginReloadAssembly (49ms)
+	ReloadAssembly (444ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (300ms)
-			LoadAssemblies (48ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (315ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (67ms)
+			SetupTypeCache (66ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (182ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (196ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (54ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (58ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003780 seconds.
+Registered in 0.004072 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 55.63 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Refreshing native plugins compatible for Editor in 56.24 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
@@ -128,43 +128,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
+- Completed reload, in  0.786 seconds
 Domain Reload Profiling:
-	ReloadAssembly (892ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (786ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (638ms)
-			LoadAssemblies (57ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (630ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
+			SetupTypeCache (168ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (334ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (338ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (60ms)
+				BeforeProcessingInitializeOnLoad (62ms)
 				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 4227 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (57.2 KB). Loaded Objects now: 4672.
-Memory consumption went from 146.7 MB to 146.6 MB.
-Total: 2.552200 ms (FindLiveObjects: 0.198300 ms CreateObjectMapping: 0.086400 ms MarkObjects: 2.210400 ms  DeleteObjects: 0.056200 ms)
+Unloading 4241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (57.1 KB). Loaded Objects now: 4686.
+Memory consumption went from 147.0 MB to 147.0 MB.
+Total: 2.290300 ms (FindLiveObjects: 0.212800 ms CreateObjectMapping: 0.104400 ms MarkObjects: 1.908200 ms  DeleteObjects: 0.064100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -178,153 +178,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1472.958094 seconds.
-  path: Assets/monster_scavenger/animation
-  artifactKey: Guid(a07efffe5a99e8e4da8fea7c6afd31de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/animation using Guid(a07efffe5a99e8e4da8fea7c6afd31de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0168be77a51be28fee4a5a4932a31bec') in 0.009213 seconds 
+  Time since last request: 2181.190582 seconds.
+  path: Assets/MazeGenerator
+  artifactKey: Guid(9b4aea127eb1b32448e05a93d41d0a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MazeGenerator using Guid(9b4aea127eb1b32448e05a93d41d0a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96ed87fc630831815d4478222b01501') in 0.009188 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.182365 seconds.
-  path: Assets/monster_scavenger/base mesh
-  artifactKey: Guid(11d6d5b924df34649b213e29b63348e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/base mesh using Guid(11d6d5b924df34649b213e29b63348e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614c96fd05fcae2e0cf7e2d3f791adb7') in 0.005399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.710593 seconds.
-  path: Assets/monster_scavenger/materials
-  artifactKey: Guid(9e59fafc16ca5664689e073c9a268962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/materials using Guid(9e59fafc16ca5664689e073c9a268962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3b04013ec94881cd7fe01a3c749fb0') in 0.005777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.244201 seconds.
-  path: Assets/monster_scavenger/animation/monster_scavenger.fbx
-  artifactKey: Guid(5bee5287b064ef64fb732dddb584c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/animation/monster_scavenger.fbx using Guid(5bee5287b064ef64fb732dddb584c168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7beacadf109dd232e2a015983284c098') in 0.757081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.772940 seconds.
-  path: Assets/monster_scavenger/base mesh/monster_scavenger.fbx
-  artifactKey: Guid(f0a1ccbcad752104484b92f85be3f1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/base mesh/monster_scavenger.fbx using Guid(f0a1ccbcad752104484b92f85be3f1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f3ae4978a5a92e7a091f7b2fa41c83') in 0.038806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.180037 seconds.
-  path: Assets/monster_scavenger/materials/Skin_Gray
-  artifactKey: Guid(024cfb6c7911874428c7a61eff3ca940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/materials/Skin_Gray using Guid(024cfb6c7911874428c7a61eff3ca940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd820922c314f64f2d9d35cbeb24394') in 0.005849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055344 seconds.
-  path: Assets/monster_scavenger/materials/Skin_Gray/body_Gray.mat
-  artifactKey: Guid(4951ef83be22d074e85001eda7c6b8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/materials/Skin_Gray/body_Gray.mat using Guid(4951ef83be22d074e85001eda7c6b8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76011c70a1399a877d4a7523d56c149a') in 0.192441 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/monster_scavenger/materials/Skin_Gray/tongue_Gray.mat
-  artifactKey: Guid(9001d773f8df9814bacbbf5d1e098952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/materials/Skin_Gray/tongue_Gray.mat using Guid(9001d773f8df9814bacbbf5d1e098952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf539d145fce19960043bc541485c09c') in 0.016724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/monster_scavenger/materials/Skin_Gray/whiskers_Gray.mat
-  artifactKey: Guid(d40de081bf330f54ab18686a1481da97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/materials/Skin_Gray/whiskers_Gray.mat using Guid(d40de081bf330f54ab18686a1481da97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce8dceeae3fbda6b02c63510426eac0') in 0.024233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.573042 seconds.
-  path: Assets/monster_scavenger/materials/Skin_Red
-  artifactKey: Guid(f30c64a8a3ee90d46bc4a53b5e144a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/materials/Skin_Red using Guid(f30c64a8a3ee90d46bc4a53b5e144a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b666604e8547299118be110ec0a69398') in 0.005637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.056684 seconds.
-  path: Assets/monster_scavenger/materials/Skin_Red/body_Red.mat
-  artifactKey: Guid(b9ad63149268fcc4abd36435c0758017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/materials/Skin_Red/body_Red.mat using Guid(b9ad63149268fcc4abd36435c0758017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7bee391007f54f9a3e5082a70ea32a8') in 0.032232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.023576 seconds.
-  path: Assets/monster_scavenger/stand
-  artifactKey: Guid(3dfd7ec354202214ea839f0efacdcba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/stand using Guid(3dfd7ec354202214ea839f0efacdcba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14dbce9426f137fa1cf3746cef095428') in 0.005662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.552773 seconds.
-  path: Assets/monster_scavenger/stand/Plane.prefab
-  artifactKey: Guid(c8845ac4d60720f42ad2cabc6233a1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/stand/Plane.prefab using Guid(c8845ac4d60720f42ad2cabc6233a1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71d4771128b9b83c343ea783f93362d') in 0.063826 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.028801 seconds.
-  path: Assets/monster_scavenger/textures
-  artifactKey: Guid(3f47f8f65ce2a2b479d9abdddc37162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/textures using Guid(3f47f8f65ce2a2b479d9abdddc37162a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40128defdd46b9682ecf11e7984a1955') in 0.005550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.283925 seconds.
-  path: Assets/monster_scavenger/textures/skin gray
-  artifactKey: Guid(a98fbd1f2ad7a99469e75a38b56c5870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/textures/skin gray using Guid(a98fbd1f2ad7a99469e75a38b56c5870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ceb1e413e827439032037df3a1287dc') in 0.005589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.042633 seconds.
-  path: Assets/monster_scavenger/textures/skin gray/monster_scavenger_body_AlbedoTransparency.tga
-  artifactKey: Guid(45ac52f5885d80846a1a16a410ac4dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/textures/skin gray/monster_scavenger_body_AlbedoTransparency.tga using Guid(45ac52f5885d80846a1a16a410ac4dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c9160f1b0fe7daf95872a86ef54e2a') in 0.019555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/monster_scavenger/textures/skin gray/monster_scavenger_teeth_AlbedoTransparency.tga
-  artifactKey: Guid(acaf818a65e4f6a4abe7d91851a73054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/textures/skin gray/monster_scavenger_teeth_AlbedoTransparency.tga using Guid(acaf818a65e4f6a4abe7d91851a73054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e13d35b86f1c377d7b38fc927b88d6') in 0.008821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/monster_scavenger/textures/skin gray/monster_scavenger_mustache_Normal.tga
-  artifactKey: Guid(80c4232110290c146806b43222f67164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/textures/skin gray/monster_scavenger_mustache_Normal.tga using Guid(80c4232110290c146806b43222f67164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6699cab45a919ecab25468878ab8537') in 0.012892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/monster_scavenger/textures/skin gray/monster_scavenger_tongue_AlbedoTransparency.tga
-  artifactKey: Guid(7c4e9f0f43572874392c31b2d99c49b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/textures/skin gray/monster_scavenger_tongue_AlbedoTransparency.tga using Guid(7c4e9f0f43572874392c31b2d99c49b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536951e037c2f8d106190e827c480b0c') in 0.011587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/monster_scavenger/textures/skin gray/monster_scavenger_mustache_MetallicSmoothness.tga
-  artifactKey: Guid(763e81bcd86d440448e1e2e6170758a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/textures/skin gray/monster_scavenger_mustache_MetallicSmoothness.tga using Guid(763e81bcd86d440448e1e2e6170758a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32618b3efc13edf1a0b2e041d1c01f1b') in 0.009274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/monster_scavenger/textures/skin gray/monster_scavenger_mustache_AlbedoTransparency.tga
-  artifactKey: Guid(37b5254c85c7d084d8ba892a989e1b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/textures/skin gray/monster_scavenger_mustache_AlbedoTransparency.tga using Guid(37b5254c85c7d084d8ba892a989e1b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3cf43f706db5b479d3e1f59495c6e3') in 0.011199 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/monster_scavenger/textures/skin gray/monster_scavenger_tongue_Normal.tga
-  artifactKey: Guid(2dab0927394d0394bb5560f7b068f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/textures/skin gray/monster_scavenger_tongue_Normal.tga using Guid(2dab0927394d0394bb5560f7b068f482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5959953d32b66621cfcd3ce78ab9f26a') in 0.009511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 318.851962 seconds.
-  path: Assets/monster_scavenger/monster_scavenger.unity
-  artifactKey: Guid(78afaae24bea80048bdd688b4433fc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/monster_scavenger/monster_scavenger.unity using Guid(78afaae24bea80048bdd688b4433fc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d35a68f371e02b5d3b717b92b879ac2') in 0.073697 seconds 
+  Time since last request: 6.039896 seconds.
+  path: Assets/MazeGenerator/demo.unity
+  artifactKey: Guid(5f66713930f36f84a865122d99889d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MazeGenerator/demo.unity using Guid(5f66713930f36f84a865122d99889d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b485445d8371b44cb1c9af853270370') in 0.005738 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003996 seconds.
+Registered in 0.003865 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
@@ -341,40 +215,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.713 seconds
+- Completed reload, in  0.750 seconds
 Domain Reload Profiling:
-	ReloadAssembly (713ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (557ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (161ms)
+			SetupTypeCache (174ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (277ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (289ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (181ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (179ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.42 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 2.21 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 4203 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (25.6 KB). Loaded Objects now: 4727.
-Memory consumption went from 163.5 MB to 163.5 MB.
-Total: 2.223900 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.104500 ms MarkObjects: 1.896500 ms  DeleteObjects: 0.020100 ms)
+Unloading 4217 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (25.6 KB). Loaded Objects now: 4690.
+Memory consumption went from 146.4 MB to 146.4 MB.
+Total: 2.446900 ms (FindLiveObjects: 0.184800 ms CreateObjectMapping: 0.091200 ms MarkObjects: 2.145300 ms  DeleteObjects: 0.024600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -386,3 +260,15 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 119.071925 seconds.
+  path: Assets/MiniMap/_Prefabs/miniMapRT.renderTexture
+  artifactKey: Guid(18f9dca9a11ac4d19ac18c775e25dcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniMap/_Prefabs/miniMapRT.renderTexture using Guid(18f9dca9a11ac4d19ac18c775e25dcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7662f744f5564de5772826c6442d270') in 0.070696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.293924 seconds.
+  path: Assets/MiniMap/_Prefabs/CanvasMiniMap.prefab
+  artifactKey: Guid(98e2b8a7d6de642f8ae08a3cbb957b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiniMap/_Prefabs/CanvasMiniMap.prefab using Guid(98e2b8a7d6de642f8ae08a3cbb957b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2ae1bd8d3f0c0f3787a3fc89217065') in 0.017376 seconds 
