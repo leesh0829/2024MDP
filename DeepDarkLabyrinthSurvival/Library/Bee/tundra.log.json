@@ -451,6 +451,7 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll (+2 others)","enqueuedNodeIndex":447,"enqueueingNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.ref.dll_C24E087EF9B388C5.mvfrm","enqueueingNodeIndex":470}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.AdditionalFile.txt","enqueuedNodeIndex":445,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll (+2 others)","enqueueingNodeIndex":447}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.rsp","enqueuedNodeIndex":446,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll (+2 others)","enqueueingNodeIndex":447}
+<<<<<<< HEAD
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SpatialTracking.ref.dll_8911EA67839E93F0.mvfrm","enqueuedNodeIndex":471,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.dll (+2 others)","enqueuedNodeIndex":255,"enqueueingNodeAnnotation":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SpatialTracking.ref.dll_8911EA67839E93F0.mvfrm","enqueueingNodeIndex":471}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.AdditionalFile.txt","enqueuedNodeIndex":253,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1900b0aE.dag/UnityEditor.SpatialTracking.dll (+2 others)","enqueueingNodeIndex":255}
@@ -613,3 +614,6 @@
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":602}
 {"msg":"noderesult","processed_node_count":599,"number_of_nodes_ever_queued":602,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":602,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Assembly-CSharp.pdb"}
 {"msg":"noderesult","processed_node_count":600,"number_of_nodes_ever_queued":602,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":601,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Assembly-CSharp.dll"}
+=======
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.pdb","enqueuedNodeIndex":576,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":5}
+>>>>>>> ed6e60a5d0cd2b452cba29903093f026a01cdfa1

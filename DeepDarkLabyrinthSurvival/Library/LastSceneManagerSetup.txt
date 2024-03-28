@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/MazeGenerator/demo.unity
+=======
+- path: Assets/monster_scavenger/monster_scavenger.unity
+>>>>>>> ed6e60a5d0cd2b452cba29903093f026a01cdfa1
   isLoaded: 1
   isActive: 1
   isSubScene: 0
