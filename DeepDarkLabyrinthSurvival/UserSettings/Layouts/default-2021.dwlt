@@ -19,9 +19,15 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 542}
+=======
+  m_Title: Hierarchy
+  m_RootView: {fileID: 9}
+  m_MinSize: {x: 875, y: 371}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -34,6 +40,60 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
+=======
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 438
+    y: 0
+    width: 504
+    height: 561
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 13}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 942
+    height: 561
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 80
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
   m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
@@ -41,11 +101,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1208
     y: 0
+<<<<<<< HEAD
     width: 243
     height: 947
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 12}
+=======
+    width: 273
+    height: 947
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 14}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
   m_Panes:
   - {fileID: 12}
   m_Selected: 0
@@ -150,7 +218,11 @@ MonoBehaviour:
     height: 386
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
+<<<<<<< HEAD
   m_ActualView: {fileID: 17}
+=======
+  m_ActualView: {fileID: 19}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
   m_Panes:
   - {fileID: 17}
   m_Selected: 0
@@ -177,7 +249,11 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
+<<<<<<< HEAD
   m_MinSize: {x: 875, y: 542}
+=======
+  m_MinSize: {x: 875, y: 371}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -226,7 +302,11 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!114 &10
+=======
+--- !u!114 &12
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -239,12 +319,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+<<<<<<< HEAD
   - {fileID: 11}
   - {fileID: 6}
+=======
+  - {fileID: 3}
+  - {fileID: 8}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 958
     height: 947
   m_MinSize: {x: 100, y: 200}
@@ -252,6 +338,15 @@ MonoBehaviour:
   vertical: 1
   controlID: 31
 --- !u!114 &11
+=======
+    width: 942
+    height: 947
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 29
+--- !u!114 &13
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,9 +365,15 @@ MonoBehaviour:
     y: 0
     width: 958
     height: 561
+<<<<<<< HEAD
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
+=======
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
@@ -298,7 +399,11 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1208
+=======
+    x: 1121
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
     y: 73
     width: 241
     height: 926
@@ -319,7 +424,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/monster_scavenger/animation
+=======
+    - Assets/MiniMap/_Prefabs
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -332,9 +441,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: cc640000
     m_LastClickedID: 25804
     m_ExpandedIDs: 00000000cc640000ce640000d064000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: ea610000
+    m_LastClickedID: 25066
+    m_ExpandedIDs: 00000000ea61000000ca9a3bffffff7f
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -362,7 +477,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: ffffffff00000000cc640000ce640000d0640000d2640000d464000004650000
+=======
+    m_ExpandedIDs: ffffffff00000000ea610000ba64000076670000866700008e670000
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -438,7 +557,11 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1451
+=======
+    x: 1394
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
     y: 73
     width: 468
     height: 926
@@ -479,7 +602,11 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 958
+=======
+    x: 942
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
     y: 73
     width: 248
     height: 926
@@ -492,7 +619,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 8c650000
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 36f9ffff
+=======
+      m_ExpandedIDs: 92a9ffffa6a9ffffbaa9ffff18dcffffb2dcffffc4e7ffff96e8ffff68e9ffff3aeaffff0cebffffdeebffffb0ecffff82edffff54eeffff26efffffbef1ffff02f5ffff1efbffffc66f0000
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -741,9 +872,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
+=======
+    m_Target: {x: 15.223453, y: -13.738548, z: -26.852627}
+    speed: 2
+    m_Value: {x: 15.223453, y: -13.738548, z: -26.852627}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -790,13 +927,21 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+=======
+    m_Target: {x: -0.022987654, y: 0.84577006, z: -0.5317995, w: -0.036558855}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
     m_Target: 10
     speed: 2
+<<<<<<< HEAD
     m_Value: 10
+=======
+    m_Value: 42.841904
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -841,7 +986,11 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 362
+=======
+    x: 438
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
     y: 73
     width: 1102
     height: 540
@@ -855,7 +1004,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
   m_TargetSize: {x: 1102, y: 519}
+=======
+  m_TargetSize: {x: 502, y: 519}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -870,8 +1023,13 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -551
     m_HBaseRangeMax: 551
+=======
+    m_HBaseRangeMin: -251
+    m_HBaseRangeMax: 251
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
     m_VBaseRangeMin: -259.5
     m_VBaseRangeMax: 259.5
     m_HAllowExceedBaseRangeMin: 1
@@ -891,23 +1049,38 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 1102
       height: 519
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 551, y: 259.5}
+=======
+      width: 502
+      height: 519
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 251, y: 259.5}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -551
+=======
+      x: -251
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
       y: -259.5
       width: 1102
       height: 519
     m_MinimalGUI: 1
   m_defaultScale: 1
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 1102, y: 540}
+=======
+  m_LastWindowPixelSize: {x: 502, y: 540}
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

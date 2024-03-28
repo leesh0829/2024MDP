@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+- path: Assets/MazeGenerator/demo.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+>>>>>>> parent of 88cfea20 (minimap sky maze asset)
