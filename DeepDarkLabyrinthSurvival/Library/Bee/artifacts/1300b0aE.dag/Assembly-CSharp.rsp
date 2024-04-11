@@ -582,6 +582,7 @@
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiSceneMenu.cs"
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiVectorInspector.cs"
 "Assets/Script/MasterController.cs"
+"Assets/Script/Monster_move.cs"
 "Assets/Script/PickUpFlashLight.cs"
 -langversion:9.0
 

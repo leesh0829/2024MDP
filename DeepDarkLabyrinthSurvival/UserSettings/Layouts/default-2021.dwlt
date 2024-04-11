@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 144
+=======
+  controlID: 71
+>>>>>>> hyunjae
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,8 +124,8 @@ MonoBehaviour:
     y: 0
     width: 250
     height: 947
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -153,7 +157,11 @@ MonoBehaviour:
   m_MinSize: {x: 500, y: 200}
   m_MaxSize: {x: 40480, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 167
+=======
+  controlID: 84
+>>>>>>> hyunjae
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,8 +181,8 @@ MonoBehaviour:
     y: 0
     width: 469
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -301,7 +309,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 42
+=======
+  controlID: 70
+>>>>>>> hyunjae
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,7 +381,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Flashlight/Misc
+=======
+    - Assets/monster_scavenger/prefab
+>>>>>>> hyunjae
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -383,7 +399,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: cc640000
     m_LastClickedID: 25804
+<<<<<<< HEAD
     m_ExpandedIDs: 000000000e36000006d8000008d800000ad800000cd800000ed8000010d8000012d8000014d8000016d8000018d800001ad800001cd80000
+=======
+    m_ExpandedIDs: 000000003c4e0100aa820100ac820100ae820100b0820100b2820100b4820100b6820100b8820100ba820100bc820100be820100c0820100
+>>>>>>> hyunjae
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -411,21 +431,25 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: ffffffff000000000e36000006d8000008d800000ad800000cd800000ed8000010d8000012d8000014d8000016d8000018d800001ad800001cd800009ad800000cd90000
+=======
+    m_ExpandedIDs: ffffffff000000003c4e0100aa820100ac820100ae820100b0820100b2820100b4820100b6820100b8820100ba820100bc820100be820100c08201001883010094830100
+>>>>>>> hyunjae
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: monster_scavenger_Skin_Red
+      m_OriginalName: monster_scavenger_Skin_Red
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 99232
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -792,7 +816,11 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -0.15948558, y: 0.14627624, z: 4.140946}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: -0.15948558, y: 0.14627624, z: 4.140946}
+=======
+    m_Value: {x: 2.3514843, y: 1.1742935, z: -1.0734541}
+>>>>>>> hyunjae
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -841,11 +869,19 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.117981695, y: 0.575468, z: -0.08446376, w: -0.80495864}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: -0.11797133, y: 0.57541746, z: -0.08445634, w: -0.80488795}
+=======
+    m_Value: {x: -0.029159946, y: 0.9643626, z: -0.12080873, w: -0.23358011}
+>>>>>>> hyunjae
   m_Size:
     m_Target: 0.77292395
     speed: 2
+<<<<<<< HEAD
     m_Value: 0.77292395
+=======
+    m_Value: 2.719774
+>>>>>>> hyunjae
   m_Ortho:
     m_Target: 0
     speed: 2
