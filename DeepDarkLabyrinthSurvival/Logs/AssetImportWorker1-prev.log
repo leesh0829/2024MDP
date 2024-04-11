@@ -15,7 +15,7 @@ D:/GitHub/DeepDarkLabyrinthSurvival/DeepDarkLabyrinthSurvival
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56001
+59153
 Successfully changed project path to: D:/GitHub/DeepDarkLabyrinthSurvival/DeepDarkLabyrinthSurvival
 D:/GitHub/DeepDarkLabyrinthSurvival/DeepDarkLabyrinthSurvival
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ D:/GitHub/DeepDarkLabyrinthSurvival/DeepDarkLabyrinthSurvival
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 98.57 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 1.95 ms.
+Refreshing native plugins compatible for Editor in 97.31 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 1.72 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/GitHub/DeepDarkLabyrinthSurvival/DeepDarkLabyrinthSurvival/Assets
@@ -64,53 +64,179 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004791 seconds.
+Registered in 0.003983 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 87.27 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 81.82 ms, found 14 plugins.
 Preloading 2 native plugins for Editor in 0.04 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.473 seconds
+- Completed reload, in  0.447 seconds
 Domain Reload Profiling:
-	ReloadAssembly (474ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (447ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (350ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (331ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (66ms)
+			SetupTypeCache (67ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (229ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (214ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
+				InitializePlatformSupportModulesInManaged (36ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (64ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (57ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004963 seconds.
+Registered in 0.004314 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000275BDDE8C20 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B90BCB90 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B90C35A0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBC94550 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBCAA750 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC3CF930 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B90DADC0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC8AD820 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE3BB430 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE3BB430 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE3E5640 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC6DF860 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE3F8250 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC6EBE70 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC8D48A0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC729080 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC729080 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC8D48A0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC75FB90 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC3FE020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC41D380 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC1BE020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC1BE020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC1EA870 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC213080 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC213080 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC215C90 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC21C4A0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC84A0F0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B8F1EE70 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B8F1EE70 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B8FE9050 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B8FFBC60 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B901C870 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDFC1010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B9031790 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B9031790 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B901C870 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B9023C90 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBF50010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBFD1020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B9023C90 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B90266A0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBFD1020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBFF8A60 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBFF8A60 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC02F260 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE0CFFD0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBC1B370 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE0CFFD0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE0CFFD0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC032270 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC041A80 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC04C170 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBC23D90 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF3CC100 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC07BC40 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF4169C0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF4169C0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF43CFE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF43CFE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF4439F0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF4439F0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 86.71 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 87.19 ms, found 14 plugins.
 Preloading 2 native plugins for Editor in 0.04 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
@@ -119,44 +245,44 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.89.0
 Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
+- Completed reload, in  1.028 seconds
 Domain Reload Profiling:
-	ReloadAssembly (955ms)
-		BeginReloadAssembly (81ms)
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (175ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (800ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (778ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (200ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (440ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (430ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (237ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (229ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.04 ms.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
 Unloading 6026 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (146.3 KB). Loaded Objects now: 6455.
-Memory consumption went from 224.1 MB to 224.0 MB.
-Total: 2.749600 ms (FindLiveObjects: 0.288300 ms CreateObjectMapping: 0.178100 ms MarkObjects: 2.167400 ms  DeleteObjects: 0.115100 ms)
+Unloading 78 unused Assets / (138.6 KB). Loaded Objects now: 6455.
+Memory consumption went from 224.3 MB to 224.1 MB.
+Total: 4.340100 ms (FindLiveObjects: 0.423800 ms CreateObjectMapping: 0.363000 ms MarkObjects: 3.373200 ms  DeleteObjects: 0.178100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,539 +296,183 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8583.177837 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png
-  artifactKey: Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding.png using Guid(958a10dec4f3a4764bb345b0aa03510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d89b6ddb66291898ca9f0e340b4e16') in 0.110827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png
-  artifactKey: Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@2x.png using Guid(bb5fa99d6e9434c9ebf101c956021ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c339a07434cefc794a060bdf963d6c5') in 0.025663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Oculus/Interaction/Samples/Textures/Active.png
-  artifactKey: Guid(dc71c444d9062474fb77b4171c1a4a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Textures/Active.png using Guid(dc71c444d9062474fb77b4171c1a4a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7948ec634d0c639a716963b0d82e646') in 0.039990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/aa.png
-  artifactKey: Guid(5c06354455999f94ea26114e261dde6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/aa.png using Guid(5c06354455999f94ea26114e261dde6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70a556f64e6c22a44a8aad23c7a896e') in 0.012004 seconds 
+  Time since last request: 749.623913 seconds.
+  path: Assets/monster_scavenger/prefab/monster_scavenger_Skin_Gray.prefab
+  artifactKey: Guid(156ea8d7801e10143a361335f8615ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/monster_scavenger/prefab/monster_scavenger_Skin_Gray.prefab using Guid(156ea8d7801e10143a361335f8615ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c4dcab992ef737d656a1c77d563579') in 0.693844 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004088 seconds.
+Registered in 0.005082 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000275BC0D8020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1FD1010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC0D8020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE206010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE4C3C50 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE4FC030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3EF7010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE206010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDF67030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDF67030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDE96070 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2694020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDE96070 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C36B6020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDEA2680 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C37F7030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDEA2680 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC938230 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE4C3C50 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3EE06F0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C35D8770 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC169E50 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC0D8020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1FD1010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1FD1010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1FD1010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1FD1010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1FD7820 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C43FD020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C612C920 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4413B40 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C6139350 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C614BF60 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDB85010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C336D020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3B71030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDB85010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C48870D0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C614BF60 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3B71030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3B71030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C614BF60 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C614BF60 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3B71030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4387480 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4387480 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C7677820 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C7677820 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBFE1030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2733C70 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C7687430 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2C60030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBFF5AA0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF728D50 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF7368F0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C453D030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4577CE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C473DC40 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C473DC40 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4750260 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4750260 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4756C70 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4756C70 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.05 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.783 seconds
-Domain Reload Profiling:
-	ReloadAssembly (784ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (624ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (291ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.47 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.06 ms.
-Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (105.4 KB). Loaded Objects now: 6468.
-Memory consumption went from 219.0 MB to 218.9 MB.
-Total: 2.719700 ms (FindLiveObjects: 0.290200 ms CreateObjectMapping: 0.210300 ms MarkObjects: 2.127800 ms  DeleteObjects: 0.090900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004896 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.05 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.778 seconds
-Domain Reload Profiling:
-	ReloadAssembly (779ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (618ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (288ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 3.82 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.04 ms.
-Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (105.4 KB). Loaded Objects now: 6472.
-Memory consumption went from 219.0 MB to 218.9 MB.
-Total: 2.722300 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.170800 ms MarkObjects: 2.193700 ms  DeleteObjects: 0.083900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004789 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 14 plugins.
 Preloading 2 native plugins for Editor in 0.05 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.775 seconds
 Domain Reload Profiling:
 	ReloadAssembly (775ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (610ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (190ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (286ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 3.95 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.04 ms.
-Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (113.3 KB). Loaded Objects now: 6476.
-Memory consumption went from 219.1 MB to 219.0 MB.
-Total: 2.631400 ms (FindLiveObjects: 0.281000 ms CreateObjectMapping: 0.176100 ms MarkObjects: 2.077000 ms  DeleteObjects: 0.096400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005637 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.05 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.799 seconds
-Domain Reload Profiling:
-	ReloadAssembly (799ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (633ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (287ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.88 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.05 ms.
-Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (105.5 KB). Loaded Objects now: 6480.
-Memory consumption went from 219.1 MB to 219.0 MB.
-Total: 2.703800 ms (FindLiveObjects: 0.276200 ms CreateObjectMapping: 0.176600 ms MarkObjects: 2.155600 ms  DeleteObjects: 0.094700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004877 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.05 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.797 seconds
-Domain Reload Profiling:
-	ReloadAssembly (797ms)
-		BeginReloadAssembly (98ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (635ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (300ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 3.97 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.03 ms.
-Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (105.5 KB). Loaded Objects now: 6484.
-Memory consumption went from 219.1 MB to 219.0 MB.
-Total: 3.239200 ms (FindLiveObjects: 0.287400 ms CreateObjectMapping: 0.174900 ms MarkObjects: 2.682900 ms  DeleteObjects: 0.093300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004439 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.05 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
-Domain Reload Profiling:
-	ReloadAssembly (786ms)
-		BeginReloadAssembly (95ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (622ms)
-			LoadAssemblies (69ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (287ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.12 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.04 ms.
-Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (105.6 KB). Loaded Objects now: 6488.
-Memory consumption went from 219.1 MB to 219.0 MB.
-Total: 2.688400 ms (FindLiveObjects: 0.298000 ms CreateObjectMapping: 0.179000 ms MarkObjects: 2.112700 ms  DeleteObjects: 0.098200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004404 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.06 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.776 seconds
-Domain Reload Profiling:
-	ReloadAssembly (776ms)
-		BeginReloadAssembly (96ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (2ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (616ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (617ms)
 			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
+			SetupTypeCache (206ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (296ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (282ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 3.94 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.03 ms.
-Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (105.6 KB). Loaded Objects now: 6492.
-Memory consumption went from 219.1 MB to 219.0 MB.
-Total: 2.992000 ms (FindLiveObjects: 0.313400 ms CreateObjectMapping: 0.190700 ms MarkObjects: 2.387800 ms  DeleteObjects: 0.099500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005039 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.06 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.793 seconds
-Domain Reload Profiling:
-	ReloadAssembly (794ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (626ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (289ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.54 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.05 ms.
-Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (113.3 KB). Loaded Objects now: 6496.
-Memory consumption went from 219.1 MB to 219.0 MB.
-Total: 2.618500 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.177700 ms MarkObjects: 2.058400 ms  DeleteObjects: 0.098900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004846 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.787 seconds
-Domain Reload Profiling:
-	ReloadAssembly (787ms)
-		BeginReloadAssembly (97ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (629ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (292ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.06 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 5.35 ms, found 14 plugins.
 Preloading 2 native plugins for Editor in 0.04 ms.
 Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (105.6 KB). Loaded Objects now: 6500.
-Memory consumption went from 219.1 MB to 219.0 MB.
-Total: 2.857400 ms (FindLiveObjects: 0.302200 ms CreateObjectMapping: 0.232100 ms MarkObjects: 2.210900 ms  DeleteObjects: 0.111300 ms)
+Unloading 67 unused Assets / (105.6 KB). Loaded Objects now: 6468.
+Memory consumption went from 231.8 MB to 231.7 MB.
+Total: 2.669200 ms (FindLiveObjects: 0.290700 ms CreateObjectMapping: 0.247100 ms MarkObjects: 2.038000 ms  DeleteObjects: 0.092800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -717,108 +487,360 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005424 seconds.
+Registered in 0.003980 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000275C3F84010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3AAD050 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3147010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDB85010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDC65010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDC65010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C423C770 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF255990 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC0D8420 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC0D8420 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3FD0EA0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C21A5030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3FD0EA0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE4BA040 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3FD9AB0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C43FD020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3FD9AB0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC0D8420 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C312F220 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002760E454A10 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C452D250 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2325030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2325030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2906220 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE2DC010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2906220 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2906220 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C290CA30 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDB85010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C64DFB70 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDB9A620 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1FD1010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE25B060 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3AAD050 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1C2A040 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDF2B020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1DE0010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBAEAA90 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF0C2F00 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDF2B020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDF2B020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBAEAA90 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDB9A620 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDF2B020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC7B2E40 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF0C2F00 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4881EE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4881EE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4881EE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4881EE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4881EE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3883020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C440C830 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4412840 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C464F1D0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDF51630 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C4664AA0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002760E558120 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2314C20 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1BB6040 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002760E566580 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1BBCA50 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002760E566580 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.05 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
+- Completed reload, in  0.777 seconds
 Domain Reload Profiling:
-	ReloadAssembly (795ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (623ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 4.26 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.06 ms.
+Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (113.3 KB). Loaded Objects now: 6472.
+Memory consumption went from 231.9 MB to 231.7 MB.
+Total: 2.605700 ms (FindLiveObjects: 0.274300 ms CreateObjectMapping: 0.179800 ms MarkObjects: 2.048500 ms  DeleteObjects: 0.102400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004434 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000275BC857010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C64D7B00 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C6A43FD0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2C82010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1DB6020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3FD0EA0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3EF7010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C65096E0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC3D5030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC3D5030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC0D0010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC3FE020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC0D0010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3128030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3FD92B0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C43FD020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC0D8C20 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC0D8C20 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B9034FD0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3EE06F0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C312C040 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002760FCB0420 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C264B430 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2907910 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BEF79010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2907910 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2907910 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBB2B7A0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE0AD020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002760E6210C0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BEE13620 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2CD6030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2CD6030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF62A040 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1C2A040 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC8FB020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C62FA010 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BEE13620 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275B90391E0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BC8FB020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3571030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C685A4D0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C685A4D0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C3571030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002760E8D3020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C1E4AA90 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBE25DE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBE25DE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBE25DE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBE25DE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BBE25DE0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF352020 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE4FC030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE4FC030 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BF7610F0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE253BB0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BE260CA0 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C64D7B00 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275BDB9CC20 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C64E1710 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C64E1710 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2718050 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275C2718050 doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 14 plugins.
+Preloading 2 native plugins for Editor in 0.04 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (848ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (629ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (675ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
+			SetupTypeCache (198ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (294ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (332ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.57 ms, found 14 plugins.
+Refreshing native plugins compatible for Editor in 4.40 ms, found 14 plugins.
 Preloading 2 native plugins for Editor in 0.04 ms.
-Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (105.6 KB). Loaded Objects now: 6504.
-Memory consumption went from 219.1 MB to 219.0 MB.
-Total: 2.716400 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.196000 ms MarkObjects: 2.125900 ms  DeleteObjects: 0.104900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004550 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.05 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.820 seconds
-Domain Reload Profiling:
-	ReloadAssembly (820ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (650ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (295ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.15 ms, found 14 plugins.
-Preloading 2 native plugins for Editor in 0.07 ms.
-Unloading 5919 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (105.6 KB). Loaded Objects now: 6508.
-Memory consumption went from 219.2 MB to 219.1 MB.
-Total: 2.778300 ms (FindLiveObjects: 0.284600 ms CreateObjectMapping: 0.180900 ms MarkObjects: 2.216400 ms  DeleteObjects: 0.095700 ms)
+Unloading 5920 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (105.5 KB). Loaded Objects now: 6477.
+Memory consumption went from 231.9 MB to 231.8 MB.
+Total: 2.724000 ms (FindLiveObjects: 0.293400 ms CreateObjectMapping: 0.248600 ms MarkObjects: 2.080500 ms  DeleteObjects: 0.100800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
