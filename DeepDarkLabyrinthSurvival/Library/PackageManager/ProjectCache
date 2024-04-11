@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638472062054941842
+      ticks: 638472057138922704
     m_Hash: 3467515391
   m_LockFileStatus:
     m_FilePath: D:/GitHub/DeepDarkLabyrinthSurvival/DeepDarkLabyrinthSurvival/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638472062054941842
+      ticks: 638472057138922704
     m_Hash: 1715199718
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -4310,25 +4310,17 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: Provides internal registration mechanism for standalone subsystems. 
     It allows a standalone subsystem to inform the Subsystem Manager of its existence.
   status: 4
   errors: []
   versions:
     all:
-    - 1.0.0-preview.4
-    - 1.0.4
-    - 1.0.5
-    - 1.0.6
     - 1.1.0
-    - 1.1.1
-    - 1.1.2
     compatible:
     - 1.1.0
-    - 1.1.1
-    - 1.1.2
-    verified: 1.1.2
+    verified: 1.1.0
   dependencies:
   - name: com.unity.modules.subsystems
     version: 1.0.0
@@ -4348,9 +4340,9 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637314426150000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:

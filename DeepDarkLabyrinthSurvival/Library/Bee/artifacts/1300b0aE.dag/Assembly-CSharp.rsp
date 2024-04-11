@@ -427,6 +427,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Telemetry.ref.dll"
+"Assets/Low Poly Guns/Scripts/GunsMenu.cs"
+"Assets/Low Poly Guns/Scripts/GunView.cs"
 "Assets/MazeGenerator/Scripts/BasicMazeGenerator.cs"
 "Assets/MazeGenerator/Scripts/DivisionMazeGenerator.cs"
 "Assets/MazeGenerator/Scripts/MazeCell.cs"

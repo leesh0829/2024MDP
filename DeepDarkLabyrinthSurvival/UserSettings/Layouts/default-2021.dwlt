@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 157
+  controlID: 144
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_MinSize: {x: 500, y: 200}
   m_MaxSize: {x: 40480, y: 16192}
   vertical: 0
-  controlID: 75
+  controlID: 167
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 39
+  controlID: 42
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,7 +369,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/MazeGenerator/Prefabs
+    - Assets/Flashlight/Misc
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -383,7 +383,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: cc640000
     m_LastClickedID: 25804
-    m_ExpandedIDs: 000000003c4e0100a4820100a6820100a8820100aa820100ac820100ae820100b0820100b2820100b4820100b6820100b8820100ba820100
+    m_ExpandedIDs: 000000000e36000006d8000008d800000ad800000cd800000ed8000010d8000012d8000014d8000016d8000018d800001ad800001cd80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -411,7 +411,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000003c4e0100a4820100a6820100a8820100aa820100ac820100ae820100b0820100b2820100b4820100b6820100b8820100ba820100
+    m_ExpandedIDs: ffffffff000000000e36000006d8000008d800000ad800000cd800000ed8000010d8000012d8000014d8000016d8000018d800001ad800001cd800009ad800000cd90000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -541,21 +541,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ee2affff
+      m_ExpandedIDs: 18fbffffbad40000ced40000fed4000000d5000002d500000ad500000ed5000080d50000d4d50000d6d5000002d60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: FlashLight
+        m_OriginalName: FlashLight
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 54594
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -790,9 +790,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -18.20353, y: -3.0676684, z: 6.42676}
+    m_Target: {x: -0.15948558, y: 0.14627624, z: 4.140946}
     speed: 2
-    m_Value: {x: -18.20353, y: -3.0676684, z: 6.42676}
+    m_Value: {x: -0.15948558, y: 0.14627624, z: 4.140946}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -841,11 +841,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.117981695, y: 0.575468, z: -0.08446376, w: -0.80495864}
     speed: 2
-    m_Value: {x: -0.117981695, y: 0.57546806, z: -0.08446376, w: -0.80495864}
+    m_Value: {x: -0.11797133, y: 0.57541746, z: -0.08445634, w: -0.80488795}
   m_Size:
-    m_Target: 12.124355
+    m_Target: 0.77292395
     speed: 2
-    m_Value: 12.124355
+    m_Value: 0.77292395
   m_Ortho:
     m_Target: 0
     speed: 2
