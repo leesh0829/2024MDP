@@ -64,7 +64,7 @@ public class OVRGrabber : MonoBehaviour
 
     public OVRInput.Controller GetController()
     {
-        retuen m_controller;
+        return m_controller;
     }
 
     // You can set this explicitly in the inspector if you're using m_moveHandPosition.
