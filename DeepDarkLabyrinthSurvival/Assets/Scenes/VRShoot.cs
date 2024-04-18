@@ -5,7 +5,7 @@ using UnityEngine;
 public class VRShoot : MonoBehaviour
 {
     public SimpleShoot simpleShoot;
-    publix OVRInput.Button shootButton;
+    public OVRInput.Button shootButton;
 
     private OVRGrabbable grabbable;
     private AudioSource audio;
@@ -13,13 +13,17 @@ public class VRShoot : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        grabbable = GetCommponent<OVRGrabbable>();
+        grabbable = GetComponent<OVRGrabbable>();
         audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(grabbable.isGrabbed && OVRInput.GetDown(shootButton, grabbable.grabbedBy.GetController()))
+        {
+            simpleShoot.StartShoot();
+            audio.Play();
+        }
     }
 }
