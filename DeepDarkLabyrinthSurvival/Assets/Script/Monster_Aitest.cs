@@ -1,10 +1,11 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Monster_Aitest : MonoBehaviour
 {
-    public GameObject player;
+    private GameObject player;
     public float moveSpeed = 1f;
     public float detectionRange = 10f;
 
@@ -12,14 +13,21 @@ public class Monster_Aitest : MonoBehaviour
     private float stoptime = 3f;
     private float timer = 0;
 
+    private void Awake()
+    {
+        player = GameObject.FindWithTag("Player");
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("플레이어랑 닿음");
-            isAttacking = true; // 적이 플레이어를 공격 중으로 설정
+            isAttacking = true;
+
         }
     }
+
 
     private void Update()
     {
