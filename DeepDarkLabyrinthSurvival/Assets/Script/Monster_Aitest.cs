@@ -7,9 +7,10 @@ public class Monster_Aitest : MonoBehaviour
 {
     public float detectionRange = 10f;
     public float moveSpeed = 1f;
+    private bool playscary = false;
     //공격여부
     private bool isAttacking = false;
-    private float stoptime = 3f;
+    private float stoptime = 5f;
     private float timer = 0f;
 
     private GameObject player;
@@ -24,26 +25,30 @@ public class Monster_Aitest : MonoBehaviour
 
     private void stopmove()
     {
-        Debug.Log("시간 증가중");
-        timer += Time.deltaTime;
+        Debug.Log("시간 증가하고 멈추고 있음");
+        playscary = true;
 
-        //멈추는 시간 다 되면
-        if (timer >= stoptime)
-        {   //멈추는거 끝내고 시간 초기화
-            isAttacking = false;
-            timer = 0f;
-            moveSpeed = 1f;
-            Debug.Log("끝남");
-        }
-        //멈추고 있음
-        else
+        if (playscary)
         {
-            Debug.Log("멈추고 있음");
-            moveSpeed = 0f;
+            //갑툭튀 여따 넣으셈, 멈추는 동안 실행 될 거임ㅇㅇ
+            moveSpeed = 0;
+            timer += Time.deltaTime;
+
+            //멈추는 시간 다 되면
+            if (timer >= stoptime)
+            {   //멈추는거 끝내고 시간 초기화
+                isAttacking = false;
+                timer = 0f;
+                moveSpeed = 1f;
+
+                //보기 편하게 할려고 임시로 해둠
+                Debug.Log("끝남----------------");
+                playscary = false;
+            }
         }
     }
 
-
+ 
 
     private void Update()
     {
@@ -61,6 +66,7 @@ public class Monster_Aitest : MonoBehaviour
             {
                 transform.LookAt(player.transform);
                 transform.Translate(direction * moveSpeed * Time.deltaTime, Space.World);
+                Debug.Log("이동중---");
             }
 
 
