@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -78,6 +78,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 140
 =======
   controlID: 75
@@ -91,6 +92,9 @@ MonoBehaviour:
 =======
   controlID: 140
 >>>>>>> parent of 93fbb4fb (die_montser)
+=======
+  controlID: 154
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,8 +140,8 @@ MonoBehaviour:
     y: 0
     width: 309
     height: 947
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -173,6 +177,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 138
 =======
   controlID: 150
@@ -186,6 +191,9 @@ MonoBehaviour:
 =======
   controlID: 138
 >>>>>>> parent of 93fbb4fb (die_montser)
+=======
+  controlID: 152
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +204,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -205,8 +213,8 @@ MonoBehaviour:
     y: 0
     width: 437
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -231,8 +239,8 @@ MonoBehaviour:
     y: 561
     width: 939
     height: 386
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -337,6 +345,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 139
 =======
   controlID: 74
@@ -350,6 +359,9 @@ MonoBehaviour:
 =======
   controlID: 139
 >>>>>>> parent of 93fbb4fb (die_montser)
+=======
+  controlID: 153
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,8 +381,8 @@ MonoBehaviour:
     y: 0
     width: 491
     height: 561
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -421,6 +433,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/monster_scavenger/prefab
 =======
     - Assets
@@ -434,6 +447,9 @@ MonoBehaviour:
 =======
     - Assets/monster_scavenger/prefab
 >>>>>>> parent of 93fbb4fb (die_montser)
+=======
+    - Assets/AllSkyFree
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -451,6 +467,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000072530100c0890100c2890100c4890100c6890100c8890100ca890100cc890100ce890100d0890100d2890100d4890100d6890100d8890100da890100dc890100de890100e0890100e2890100e4890100
 =======
     m_ExpandedIDs: 00000000387d00003a7d00003c7d00003e7d0000407d0000427d0000447d0000467d0000487d00004a7d00004c7d00004e7d0000507d0000527d0000547d0000567d0000587d00005a7d00005c7d00005e7d0000
@@ -464,6 +481,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 0000000072530100c0890100c2890100c4890100c6890100c8890100ca890100cc890100ce890100d0890100d2890100d4890100d6890100d8890100da890100dc890100de890100e0890100e2890100e4890100
 >>>>>>> parent of 93fbb4fb (die_montser)
+=======
+    m_ExpandedIDs: 00000000387d00003a7d00003c7d00003e7d0000407d0000427d0000447d0000467d0000487d00004a7d00004c7d00004e7d0000507d0000527d0000547d0000567d0000587d00005a7d00005c7d00005e7d0000607d0000627d0000647d0000667d0000
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -495,6 +515,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: ffffffff0000000072530100c0890100c2890100c4890100c6890100c8890100ca890100cc890100ce890100d0890100d2890100d4890100d6890100d8890100da890100dc890100de890100e0890100e2890100e4890100468a0100528a0100
 =======
     m_ExpandedIDs: ffffffff00000000387d00003a7d00003c7d00003e7d0000407d0000427d0000447d0000467d0000487d00004a7d00004c7d00004e7d0000507d0000527d0000547d0000567d0000587d00005a7d00005c7d00005e7d0000f67d0000
@@ -508,16 +529,20 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: ffffffff0000000072530100c0890100c2890100c4890100c6890100c8890100ca890100cc890100ce890100d0890100d2890100d4890100d6890100d8890100da890100dc890100de890100e0890100e2890100e4890100468a0100528a0100
 >>>>>>> parent of 93fbb4fb (die_montser)
+=======
+    m_ExpandedIDs: ffffffff00000000387d00003a7d00003c7d00003e7d0000427d0000447d0000467d0000487d00004c7d00004e7d0000507d0000527d0000547d0000567d0000587d00005a7d00005c7d0000607d0000627d0000647d0000
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Monster_Aitest
-      m_OriginalName: Monster_Aitest
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -535,9 +560,12 @@ MonoBehaviour:
 =======
       m_UserData: 10140
 >>>>>>> parent of 93fbb4fb (die_montser)
+=======
+      m_UserData: 0
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -610,11 +638,11 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 403
+    m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 130
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -655,6 +683,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: cc880100
       m_LastClickedID: 0
       m_ExpandedIDs: 6025ffff0487010064870100688701004a8801004c880100b4880100
@@ -678,6 +707,11 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: 6025ffff0487010064870100688701004a8801004c880100b4880100
 >>>>>>> parent of 93fbb4fb (die_montser)
+=======
+      m_SelectedIDs: a2750000
+      m_LastClickedID: 30114
+      m_ExpandedIDs: 8895feff54d5ffff2efbffffb0740000bc740000c074000030750000a47500000c760000
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -928,6 +962,7 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.25390756, y: 0.81622314, z: 4.215055}
     speed: 2
     m_Value: {x: 0.25390756, y: 0.81622314, z: 4.215055}
@@ -941,6 +976,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.17567345, y: 1.075327, z: 0.0045285225}
 >>>>>>> parent of 064dcc69 (ui, jumpscare audio)
+=======
+    m_Target: {x: 0.17567345, y: 1.075327, z: 0.0045285225}
+    speed: 2
+    m_Value: {x: 0.17567345, y: 1.075327, z: 0.0045285225}
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -989,12 +1029,17 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.46152395, y: 0.08045123, z: -0.042322513, w: 0.8826488}
+=======
+    m_Target: {x: 0.34304985, y: 0.07544425, z: -0.027914625, w: 0.9360446}
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
     speed: 2
-    m_Value: {x: 0.46144623, y: 0.080437675, z: -0.042315386, w: 0.8825002}
+    m_Value: {x: 0.34435368, y: 0.07679264, z: -0.028539717, w: 0.9352588}
   m_Size:
-    m_Target: 6.9344807
+    m_Target: 1.6367612
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Value: 6.6358666
@@ -1020,6 +1065,9 @@ MonoBehaviour:
 =======
     m_Value: 6.6358666
 >>>>>>> parent of 93fbb4fb (die_montser)
+=======
+    m_Value: 1.5662787
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
   m_Ortho:
     m_Target: 0
     speed: 2

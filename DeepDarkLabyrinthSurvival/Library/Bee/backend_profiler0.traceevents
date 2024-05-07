@@ -1,6 +1,7 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1715061901654533, "dur":636, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1715061901655177, "dur":684, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1715061901655971, "dur":86, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -2395,6 +2396,8 @@
 ,{ "pid":12345, "tid":16, "ts":1715061902505977, "dur":159377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1715061902668314, "dur":4241, "ph":"X", "name": "ProfilerWriteOutput" }
 =======
+=======
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
 ,{ "pid":12345, "tid":0, "ts":1714457738938331, "dur":704, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1714457738939042, "dur":648, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1714457738939824, "dur":88, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -4797,6 +4800,7 @@
 ,{ "pid":12345, "tid":16, "ts":1714457738960399, "dur":810572, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":16, "ts":1714457739770972, "dur":33351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1714457739807747, "dur":4257, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
 >>>>>>> parent of 064dcc69 (ui, jumpscare audio)
 =======
 ,{ "pid":12345, "tid":0, "ts":1715050611791849, "dur":631, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
@@ -7239,4 +7243,6 @@
 ,{ "pid":12345, "tid":16, "ts":1715050612791321, "dur":32605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1715050612827582, "dur":4560, "ph":"X", "name": "ProfilerWriteOutput" }
 >>>>>>> parent of 93fbb4fb (die_montser)
+=======
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
 ,
