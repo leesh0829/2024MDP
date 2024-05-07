@@ -13,17 +13,10 @@ public class Monster_Aitest : MonoBehaviour
     private float stoptime = 5f;
     private float timer = 0f;
 
-    private Vector3 oripos;
-    private GameObject player;
+    private int die_stop_time = 2;
+    private int die_start = 0;
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            isAttacking = true;
-            oripos = transform.position;
-        }
-    }
+    private GameObject player;
 
     private void stopmove()
     {
@@ -32,7 +25,6 @@ public class Monster_Aitest : MonoBehaviour
 
         if (playscary)
         {
-            //°©ÅöÆ¢ ¿©µû ³ÖÀ¸¼À, ¸ØÃß´Â µ¿¾È ½ÇÇà µÉ °ÅÀÓ¤·¤·
             moveSpeed = 0;
             timer += Time.deltaTime;
 
@@ -47,11 +39,43 @@ public class Monster_Aitest : MonoBehaviour
                 Debug.Log("³¡³²----------------");
                 playscary = false;
             }
-            transform.position = oripos;
         }
     }
 
- 
+    private void die()
+    {
+        //Á×´Â ¿¡´Ï¸ÞÀÌ¼Ç ³Ö±â
+
+
+        //½ÃÃ¼ ¸î ÃÊ À¯Áö
+        die_start++;
+
+        if (die_start == 2)
+        {
+            //»èÁ¦µÊ
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        //ÇÃ·¹ÀÌ¾î¶û ´ê¾ÒÀ» ¶§
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isAttacking = true;
+        }
+
+        //ÃÑ¿¡ ¸Â¾ÒÀ» ¶§
+        if(collision.gameObject.CompareTag("bullet"))
+        {
+            //ÃÑ¾Ë ´êÀ¸¸é ÃÑ¾Ë ÆÄ±«
+            Destroy(collision.gameObject);
+
+            die();
+            die_start++;
+
+        }
+    }
 
     private void Update()
     {
