@@ -13,16 +13,35 @@ public class Monster_Aitest : MonoBehaviour
     private float stoptime = 5f;
     private float timer = 0f;
 
-    private Vector3 oripos;
     private GameObject player;
+
+<<<<<<< HEAD
+    private void OnCollisionEnter(Collision collision)
+    {
+=======
 
     private void OnCollisionEnter(Collision collision)
     {
+        //ÇÃ·¹ÀÌ¾î¶û ´ê¾ÒÀ» ¶§
+>>>>>>> Adelie
         if (collision.gameObject.CompareTag("Player"))
         {
             isAttacking = true;
-            oripos = transform.position;
         }
+<<<<<<< HEAD
+=======
+
+        //ÃÑ¿¡ ¸Â¾ÒÀ» ¶§
+        if (collision.gameObject.CompareTag("bullet"))
+        {
+            //ÃÑ¾Ë ´êÀ¸¸é ÃÑ¾Ë ÆÄ±«
+            Destroy(collision.gameObject);
+
+            die();
+            die_start++;
+
+        }
+>>>>>>> Adelie
     }
 
     private void stopmove()
@@ -47,11 +66,27 @@ public class Monster_Aitest : MonoBehaviour
                 Debug.Log("³¡³²----------------");
                 playscary = false;
             }
-            transform.position = oripos;
         }
     }
 
+<<<<<<< HEAD
  
+=======
+    private void die()
+    {
+        //Á×´Â ¿¡´Ï¸ÞÀÌ¼Ç ³Ö±â
+
+
+        //½ÃÃ¼ ¸î ÃÊ À¯Áö
+        die_start++;
+
+        if (die_start == 2)
+        {
+            //»èÁ¦µÊ
+            Destroy(gameObject);
+        }
+    }
+>>>>>>> Adelie
 
     private void Update()
     {
