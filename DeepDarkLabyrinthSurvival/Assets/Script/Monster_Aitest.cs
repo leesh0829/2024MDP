@@ -13,6 +13,7 @@ public class Monster_Aitest : MonoBehaviour
     private float stoptime = 5f;
     private float timer = 0f;
 
+    private Vector3 oripos;
     private GameObject player;
 
     private void OnCollisionEnter(Collision collision)
@@ -20,6 +21,7 @@ public class Monster_Aitest : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             isAttacking = true;
+            oripos = transform.position;
         }
     }
 
@@ -45,6 +47,7 @@ public class Monster_Aitest : MonoBehaviour
                 Debug.Log("³¡³²----------------");
                 playscary = false;
             }
+            transform.position = oripos;
         }
     }
 
