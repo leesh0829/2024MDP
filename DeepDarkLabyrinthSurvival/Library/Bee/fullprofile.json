@@ -10,6 +10,7 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 0, "tid": 1, "ts": 1715061901527617, "dur": 1311228, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1715061901527643, "dur": 102425, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1715061901630072, "dur": 1108651, "ph": "X", "name": "Run Backend", "args": {} },
@@ -2420,6 +2421,15 @@
 { "pid": 0, "tid": 1, "ts": 1714457740120702, "dur": 631, "ph": "X", "name": "ChromeTraceHeader", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1714457740123198, "dur": 733, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+=======
+{ "pid": 0, "tid": 1, "ts": 1714457738736605, "dur": 1383048, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714457738737467, "dur": 179272, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714457738916839, "dur": 1002018, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714457739918874, "dur": 200779, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714457740120702, "dur": 631, "ph": "X", "name": "ChromeTraceHeader", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1714457740123198, "dur": 733, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
 ,{ "pid":12345, "tid":0, "ts":1714457738938331, "dur":704, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1714457738939042, "dur":648, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1714457738939824, "dur":88, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -4824,6 +4834,9 @@
 ,{ "pid":12345, "tid":0, "ts":1714457739807747, "dur":4257, "ph":"X", "name": "ProfilerWriteOutput" }
 ,{ "pid": 0, "tid": 1, "ts": 1714457740124075, "dur": 2008, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1714457740122250, "dur": 3860, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+<<<<<<< HEAD
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
+=======
 >>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
 {}
 

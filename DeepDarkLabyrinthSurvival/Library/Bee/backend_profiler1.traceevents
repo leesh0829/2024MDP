@@ -1,5 +1,6 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1715060365350692, "dur":649, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1715060365351347, "dur":275, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1715060365351720, "dur":101, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -2385,6 +2386,8 @@
 ,{ "pid":12345, "tid":16, "ts":1715060365369906, "dur":194436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1715060365568094, "dur":4190, "ph":"X", "name": "ProfilerWriteOutput" }
 =======
+=======
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
 ,{ "pid":12345, "tid":0, "ts":1714440684100243, "dur":698, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1714440684100951, "dur":1199, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1714440684102272, "dur":90, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -5640,5 +5643,8 @@
 ,{ "pid":12345, "tid":16, "ts":1714440690703380, "dur":109120, "ph":"X", "name": "MovedFromExtractorCombine",  "args": { "detail":"Library/Bee/artifacts/1300b0aE.dag/Oculus.AudioManager.Audio.Editor.dll.mvfrm" }}
 ,{ "pid":12345, "tid":16, "ts":1714440690812540, "dur":25103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1714440690842300, "dur":5866, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
+=======
 >>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
 ,

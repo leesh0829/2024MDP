@@ -14,11 +14,14 @@ public class Monster_Aitest : MonoBehaviour
     private float timer = 0f;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private int die_stop_time = 2;
     private int die_start = 0;
 
     private GameObject player;
 =======
+=======
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
     private GameObject player;
 
     private void OnCollisionEnter(Collision collision)
