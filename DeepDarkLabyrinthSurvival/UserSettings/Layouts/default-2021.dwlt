@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -77,6 +77,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 140
 =======
   controlID: 75
@@ -87,6 +88,9 @@ MonoBehaviour:
 =======
   controlID: 154
 >>>>>>> parent of 064dcc69 (ui, jumpscare audio)
+=======
+  controlID: 140
+>>>>>>> parent of 93fbb4fb (die_montser)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,6 +172,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 138
 =======
   controlID: 150
@@ -178,6 +183,9 @@ MonoBehaviour:
 =======
   controlID: 152
 >>>>>>> parent of 064dcc69 (ui, jumpscare audio)
+=======
+  controlID: 138
+>>>>>>> parent of 93fbb4fb (die_montser)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -328,6 +336,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 139
 =======
   controlID: 74
@@ -338,6 +347,9 @@ MonoBehaviour:
 =======
   controlID: 153
 >>>>>>> parent of 064dcc69 (ui, jumpscare audio)
+=======
+  controlID: 139
+>>>>>>> parent of 93fbb4fb (die_montser)
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -408,6 +420,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/monster_scavenger/prefab
 =======
     - Assets
@@ -418,6 +431,9 @@ MonoBehaviour:
 =======
     - Assets/AllSkyFree
 >>>>>>> parent of 064dcc69 (ui, jumpscare audio)
+=======
+    - Assets/monster_scavenger/prefab
+>>>>>>> parent of 93fbb4fb (die_montser)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -434,6 +450,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000072530100c0890100c2890100c4890100c6890100c8890100ca890100cc890100ce890100d0890100d2890100d4890100d6890100d8890100da890100dc890100de890100e0890100e2890100e4890100
 =======
     m_ExpandedIDs: 00000000387d00003a7d00003c7d00003e7d0000407d0000427d0000447d0000467d0000487d00004a7d00004c7d00004e7d0000507d0000527d0000547d0000567d0000587d00005a7d00005c7d00005e7d0000
@@ -444,6 +461,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000387d00003a7d00003c7d00003e7d0000407d0000427d0000447d0000467d0000487d00004a7d00004c7d00004e7d0000507d0000527d0000547d0000567d0000587d00005a7d00005c7d00005e7d0000607d0000627d0000647d0000667d0000
 >>>>>>> parent of 064dcc69 (ui, jumpscare audio)
+=======
+    m_ExpandedIDs: 0000000072530100c0890100c2890100c4890100c6890100c8890100ca890100cc890100ce890100d0890100d2890100d4890100d6890100d8890100da890100dc890100de890100e0890100e2890100e4890100
+>>>>>>> parent of 93fbb4fb (die_montser)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -468,9 +488,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 176}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,16 +505,20 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: ffffffff00000000387d00003a7d00003c7d00003e7d0000427d0000447d0000467d0000487d00004c7d00004e7d0000507d0000527d0000547d0000567d0000587d00005a7d00005c7d0000607d0000627d0000647d0000
 >>>>>>> parent of 064dcc69 (ui, jumpscare audio)
+=======
+    m_ExpandedIDs: ffffffff0000000072530100c0890100c2890100c4890100c6890100c8890100ca890100cc890100ce890100d0890100d2890100d4890100d6890100d8890100da890100dc890100de890100e0890100e2890100e4890100468a0100528a0100
+>>>>>>> parent of 93fbb4fb (die_montser)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Monster_Aitest
+      m_OriginalName: Monster_Aitest
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -507,9 +532,12 @@ MonoBehaviour:
 =======
       m_UserData: 0
 >>>>>>> parent of 064dcc69 (ui, jumpscare audio)
+=======
+      m_UserData: 10140
+>>>>>>> parent of 93fbb4fb (die_montser)
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -586,7 +614,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 130
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -626,6 +654,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: cc880100
       m_LastClickedID: 0
       m_ExpandedIDs: 6025ffff0487010064870100688701004a8801004c880100b4880100
@@ -644,20 +673,25 @@ MonoBehaviour:
       m_LastClickedID: 30114
       m_ExpandedIDs: 8895feff54d5ffff2efbffffb0740000bc740000c074000030750000a47500000c760000
 >>>>>>> parent of 064dcc69 (ui, jumpscare audio)
+=======
+      m_SelectedIDs: cc880100
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6025ffff0487010064870100688701004a8801004c880100b4880100
+>>>>>>> parent of 93fbb4fb (die_montser)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: CasingExit
-        m_OriginalName: CasingExit
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 96868
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -959,8 +993,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.46144623, y: 0.080437675, z: -0.042315386, w: 0.8825002}
   m_Size:
-    m_Target: 7.913395
+    m_Target: 6.9344807
     speed: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Value: 6.6358666
 =======
@@ -982,6 +1017,9 @@ MonoBehaviour:
 =======
     m_Value: 1.5662787
 >>>>>>> parent of 064dcc69 (ui, jumpscare audio)
+=======
+    m_Value: 6.6358666
+>>>>>>> parent of 93fbb4fb (die_montser)
   m_Ortho:
     m_Target: 0
     speed: 2
