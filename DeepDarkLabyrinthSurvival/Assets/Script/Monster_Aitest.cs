@@ -13,10 +13,22 @@ public class Monster_Aitest : MonoBehaviour
     private float stoptime = 5f;
     private float timer = 0f;
 
+<<<<<<< HEAD
     private int die_stop_time = 2;
     private int die_start = 0;
 
     private GameObject player;
+=======
+    private GameObject player;
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isAttacking = true;
+        }
+    }
+>>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
 
     private void stopmove()
     {
