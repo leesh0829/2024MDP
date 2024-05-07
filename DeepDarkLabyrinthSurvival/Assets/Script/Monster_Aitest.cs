@@ -13,25 +13,31 @@ public class Monster_Aitest : MonoBehaviour
     private float stoptime = 5f;
     private float timer = 0f;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     private int die_stop_time = 2;
     private int die_start = 0;
 
     private GameObject player;
-=======
-=======
->>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
-    private GameObject player;
+
 
     private void OnCollisionEnter(Collision collision)
     {
+        //ÇÃ·¹ÀÌ¾î¶û ´ê¾ÒÀ» ¶§
         if (collision.gameObject.CompareTag("Player"))
         {
             isAttacking = true;
         }
+
+        //ÃÑ¿¡ ¸Â¾ÒÀ» ¶§
+        if (collision.gameObject.CompareTag("bullet"))
+        {
+            //ÃÑ¾Ë ´êÀ¸¸é ÃÑ¾Ë ÆÄ±«
+            Destroy(collision.gameObject);
+
+            die();
+            die_start++;
+
+        }
     }
->>>>>>> parent of 01c64a1c (Merge pull request #19 from leesh0829/hyunjae)
 
     private void stopmove()
     {
@@ -69,26 +75,6 @@ public class Monster_Aitest : MonoBehaviour
         {
             //»èÁ¦µÊ
             Destroy(gameObject);
-        }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        //ÇÃ·¹ÀÌ¾î¶û ´ê¾ÒÀ» ¶§
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            isAttacking = true;
-        }
-
-        //ÃÑ¿¡ ¸Â¾ÒÀ» ¶§
-        if(collision.gameObject.CompareTag("bullet"))
-        {
-            //ÃÑ¾Ë ´êÀ¸¸é ÃÑ¾Ë ÆÄ±«
-            Destroy(collision.gameObject);
-
-            die();
-            die_start++;
-
         }
     }
 
