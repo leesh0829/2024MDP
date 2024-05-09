@@ -14,8 +14,13 @@ public class Monster_Aitest : MonoBehaviour
     private float timer = 0f;
 
     private GameObject player;
+    private MonsterManager monsterManager;
 
 
+    private void Awake()
+    {
+        monsterManager = GetComponent<MonsterManager>();
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -40,7 +45,6 @@ public class Monster_Aitest : MonoBehaviour
 
     private void stopmove()
     {
-        Debug.Log("시간 증가하고 멈추고 있음");
         playscary = true;
 
         if (playscary)
@@ -56,8 +60,6 @@ public class Monster_Aitest : MonoBehaviour
                 timer = 0f;
                 moveSpeed = 1f;
 
-                //보기 편하게 할려고 임시로 해둠
-                Debug.Log("끝남----------------");
                 playscary = false;
             }
         }
@@ -74,7 +76,7 @@ public class Monster_Aitest : MonoBehaviour
     }
 
 
-    private void Update()
+    private void FixedUpdate()
     {
 
         player = GameObject.FindWithTag("Player");
@@ -90,7 +92,6 @@ public class Monster_Aitest : MonoBehaviour
             {
                 transform.LookAt(player.transform);
                 transform.Translate(direction * moveSpeed * Time.deltaTime, Space.World);
-                Debug.Log("이동중---");
             }
 
 
