@@ -15,21 +15,13 @@ public class Monster_Aitest : MonoBehaviour
 
     private GameObject player;
 
-<<<<<<< HEAD
-    private void OnCollisionEnter(Collision collision)
-    {
-=======
-
     private void OnCollisionEnter(Collision collision)
     {
         //플레이어랑 닿았을 때
->>>>>>> Adelie
         if (collision.gameObject.CompareTag("Player"))
         {
             isAttacking = true;
         }
-<<<<<<< HEAD
-=======
 
         //총에 맞았을 때
         if (collision.gameObject.CompareTag("bullet"))
@@ -38,10 +30,8 @@ public class Monster_Aitest : MonoBehaviour
             Destroy(collision.gameObject);
 
             die();
-            die_start++;
 
         }
->>>>>>> Adelie
     }
 
     private void stopmove()
@@ -69,24 +59,15 @@ public class Monster_Aitest : MonoBehaviour
         }
     }
 
-<<<<<<< HEAD
- 
-=======
     private void die()
     {
         //죽는 에니메이션 넣기
 
 
         //시체 몇 초 유지
-        die_start++;
-
-        if (die_start == 2)
-        {
-            //삭제됨
-            Destroy(gameObject);
-        }
+        //삭제됨
+        Destroy(gameObject);
     }
->>>>>>> Adelie
 
     private void Update()
     {
