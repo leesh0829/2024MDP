@@ -10,6 +10,8 @@ public class Monster_Aitest : MonoBehaviour
     private bool playscary = false;
     //공격여부
     private bool isAttacking = false;
+
+    private Animation ani;
     private float stoptime = 5f;
     private float timer = 0f;
 
@@ -20,6 +22,7 @@ public class Monster_Aitest : MonoBehaviour
     private void Awake()
     {
         monsterManager = GetComponent<MonsterManager>();
+        ani = GetComponent<Animation>();
     }
 
     private void OnCollisionEnter(Collision collision)
