@@ -583,8 +583,13 @@
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiSceneMenu.cs"
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiVectorInspector.cs"
 "Assets/Scenes/VRShoot.cs"
+"Assets/Script/Gamemanager.cs"
 "Assets/Script/MasterController.cs"
+<<<<<<< HEAD
 "Assets/Script/MenuController.cs"
+=======
+"Assets/Script/MonsterManager.cs"
+>>>>>>> hyunjae
 "Assets/Script/Monster_Aitest.cs"
 "Assets/Script/PickUpFlashLight.cs"
 -langversion:9.0

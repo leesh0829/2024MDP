@@ -21,6 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Console
   m_RootView: {fileID: 6}
 =======
@@ -30,6 +31,10 @@ MonoBehaviour:
 >>>>>>> Adelie
   m_RootView: {fileID: 9}
 >>>>>>> Adelie
+=======
+  m_Title: Scene
+  m_RootView: {fileID: 8}
+>>>>>>> hyunjae
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
@@ -42,6 +47,87 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 818
+    y: 0
+    width: 245
+    height: 652
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1063
+    y: 0
+    width: 243
+    height: 652
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1306
+    y: 0
+    width: 230
+    height: 652
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+>>>>>>> hyunjae
   m_EditorHideFlags: 1
 =======
   m_EditorHideFlags: 0
@@ -77,17 +163,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 9}
   - {fileID: 3}
+=======
+  - {fileID: 11}
+  - {fileID: 6}
+>>>>>>> hyunjae
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
+  m_MinSize: {x: 500, y: 200}
+  m_MaxSize: {x: 40480, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 48
 --- !u!114 &3
 =======
@@ -105,6 +197,10 @@ MonoBehaviour:
   controlID: 127
 --- !u!114 &4
 >>>>>>> Adelie
+=======
+  controlID: 367
+--- !u!114 &6
+>>>>>>> hyunjae
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,13 +215,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1194
     y: 0
     width: 249
+=======
+    x: 1536
+    y: 0
+    width: 384
+>>>>>>> hyunjae
     height: 947
 <<<<<<< HEAD
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
+<<<<<<< HEAD
   m_ActualView: {fileID: 13}
 =======
   m_MinSize: {x: 232, y: 271}
@@ -158,11 +261,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
 >>>>>>> Adelie
+=======
+  m_ActualView: {fileID: 16}
+>>>>>>> hyunjae
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &4
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,8 +277,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: AnimatorControllerTool
+>>>>>>> hyunjae
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 12}
@@ -183,11 +294,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 0
     width: 363
     height: 561
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    y: 652
+    width: 1536
+    height: 295
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> hyunjae
   m_ActualView: {fileID: 14}
 =======
     y: 30
@@ -222,7 +341,9 @@ MonoBehaviour:
 >>>>>>> Adelie
   m_Panes:
   - {fileID: 14}
+  - {fileID: 20}
   m_Selected: 0
+<<<<<<< HEAD
   m_LastSelected: 0
 <<<<<<< HEAD
 --- !u!114 &5
@@ -267,6 +388,10 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &9
 >>>>>>> Adelie
+=======
+  m_LastSelected: 1
+--- !u!114 &8
+>>>>>>> hyunjae
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -280,6 +405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 7}
   - {fileID: 2}
   - {fileID: 8}
@@ -288,6 +414,11 @@ MonoBehaviour:
   - {fileID: 6}
   - {fileID: 11}
 >>>>>>> Adelie
+=======
+  - {fileID: 9}
+  - {fileID: 5}
+  - {fileID: 10}
+>>>>>>> hyunjae
   m_Position:
     serializedVersion: 2
     x: 0
@@ -301,10 +432,14 @@ MonoBehaviour:
   m_UseBottomView: 1
   m_BottomViewHeight: 20
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &7
 =======
 --- !u!114 &10
 >>>>>>> Adelie
+=======
+--- !u!114 &9
+>>>>>>> hyunjae
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -327,10 +462,14 @@ MonoBehaviour:
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &8
 =======
 --- !u!114 &11
 >>>>>>> Adelie
+=======
+--- !u!114 &10
+>>>>>>> hyunjae
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -351,6 +490,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!114 &9
 =======
@@ -416,6 +556,8 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 18
+=======
+>>>>>>> hyunjae
 --- !u!114 &11
 =======
   controlID: 21
@@ -432,24 +574,80 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 12}
+  - {fileID: 7}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1536
+    height: 947
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
+  vertical: 1
+  controlID: 368
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 13}
+  - {fileID: 2}
+  - {fileID: 3}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1536
+    height: 652
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 8096}
+  vertical: 0
+  controlID: 369
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 363
+=======
+    x: 0
+>>>>>>> hyunjae
     y: 0
-    width: 1103
-    height: 561
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+    width: 818
+    height: 652
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 16}
+  - {fileID: 18}
   m_Selected: 0
+<<<<<<< HEAD
   m_LastSelected: 1
 --- !u!114 &12
 =======
@@ -466,6 +664,74 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &14
 >>>>>>> Adelie
+=======
+  m_LastSelected: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 725
+    width: 1535
+    height: 274
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -3297595063341898182, guid: 8cd913eb064be87499c59512b376c52c, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.7741938
+      e01: 0
+      e02: 0
+      e03: 142.88112
+      e10: 0
+      e11: 0.7741938
+      e12: 0
+      e13: -52.287518
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 8cd913eb064be87499c59512b376c52c, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -3297595063341898182, guid: 8cd913eb064be87499c59512b376c52c, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &15
+>>>>>>> hyunjae
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -485,10 +751,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1194
     y: 73
     width: 247
     height: 926
+=======
+    x: 1306
+    y: 73
+    width: 228
+    height: 631
+>>>>>>> hyunjae
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -507,21 +780,26 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets
 =======
     - Assets/Scenes
 >>>>>>> Adelie
+=======
+    - Assets/monster_scavenger/prefab
+>>>>>>> hyunjae
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/monster_scavenger/animation
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub\DeepDarkLabyrinthSurvival\DeepDarkLabyrinthSurvival
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
     m_SelectedIDs: 70870100
@@ -536,6 +814,12 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000747e0000767e0000787e00007a7e00007c7e00007e7e0000807e0000827e0000847e0000867e0000887e00008a7e00008c7e00008e7e0000907e0000927e0000947e0000967e0000987e00009a7e00009c7e0000
 >>>>>>> Adelie
+=======
+    scrollPos: {x: 0, y: 175}
+    m_SelectedIDs: 648a0100
+    m_LastClickedID: 100964
+    m_ExpandedIDs: 000000007a530100c4890100c6890100c8890100ca890100cc890100ce890100d0890100d2890100d4890100d6890100d8890100da890100dc890100de890100e0890100e2890100e4890100e6890100168a010000ca9a3bffffff7f
+>>>>>>> hyunjae
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -560,9 +844,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 300}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_ExpandedIDs: 00000000007b0000027b0000047b0000067b0000087b00000a7b00000c7b00000e7b0000107b0000127b0000147b0000167b0000187b00001a7b00001c7b00001e7b0000207b0000227b0000247b0000267b0000
@@ -576,12 +861,20 @@ MonoBehaviour:
       m_UserAcceptedRename: 0
       m_Name: MenuController
       m_OriginalName: MenuController
+=======
+    m_ExpandedIDs: ffffffff000000007a530100c4890100c6890100c8890100ca890100cc890100ce890100d0890100d2890100d4890100d6890100d8890100da890100dc890100de890100e0890100e2890100e4890100e6890100168a0100228a0100648a01006a8a0100708a0100
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: monster_scavenger_Skin_Red
+      m_OriginalName: monster_scavenger_Skin_Red
+>>>>>>> hyunjae
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       m_UserData: 0
@@ -591,6 +884,9 @@ MonoBehaviour:
 =======
       m_UserData: 32648
 >>>>>>> Adelie
+=======
+      m_UserData: 100564
+>>>>>>> hyunjae
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -607,7 +903,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c6230000708a0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -623,7 +919,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -635,12 +931,17 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_DirectoriesAreaWidth: 207
 --- !u!114 &13
 =======
   m_DirectoriesAreaWidth: 50
 --- !u!114 &15
 >>>>>>> Adelie
+=======
+  m_DirectoriesAreaWidth: 193
+--- !u!114 &16
+>>>>>>> hyunjae
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -660,9 +961,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1443
     y: 73
     width: 476
+=======
+    x: 1536
+    y: 73
+    width: 383
+>>>>>>> hyunjae
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -675,17 +982,21 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 57
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &14
 =======
 --- !u!114 &16
 >>>>>>> Adelie
+=======
+--- !u!114 &17
+>>>>>>> hyunjae
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -705,6 +1016,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 958
     y: 73
 <<<<<<< HEAD
@@ -714,6 +1026,12 @@ MonoBehaviour:
     width: 234
     height: 926
 >>>>>>> Adelie
+=======
+    x: 1063
+    y: 73
+    width: 241
+    height: 631
+>>>>>>> hyunjae
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -721,6 +1039,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
 <<<<<<< HEAD
@@ -732,22 +1051,31 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: 66caffff40cfffff28fbffffa8b2000000b40000
 >>>>>>> Adelie
+=======
+      m_SelectedIDs: 1c8701002087010024870100288701005a25ffff10870100a6870100bc87010038870100cc870100c8870100ec870100b8870100c4870100ae87010068870100668701006a87010000870100d0870100d4870100d8870100dc870100f6870100fa8701009c8801007888010096880100988801009a8801009e8801000487010008870100
+      m_LastClickedID: 100104
+      m_ExpandedIDs: 5c25ffff0c870100488701006087010062870100648701006c87010070870100f4870100f6870100308801005288010054880100788801009c880100
+>>>>>>> hyunjae
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Flashlight
+        m_OriginalName: Flashlight
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 100342
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
+<<<<<<< HEAD
         m_ClientGUIView: {fileID: 5}
+=======
+        m_ClientGUIView: {fileID: 3}
+>>>>>>> hyunjae
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -756,10 +1084,14 @@ MonoBehaviour:
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &15
 =======
 --- !u!114 &17
 >>>>>>> Adelie
+=======
+--- !u!114 &18
+>>>>>>> hyunjae
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -780,6 +1112,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 363
     y: 73
     width: 1101
@@ -789,6 +1122,12 @@ MonoBehaviour:
     width: 478
 >>>>>>> Adelie
     height: 540
+=======
+    x: 0
+    y: 73
+    width: 817
+    height: 631
+>>>>>>> hyunjae
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -874,7 +1213,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -992,6 +1331,7 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
@@ -1005,6 +1345,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.41035917, y: 1.9759864, z: 1.882261}
 >>>>>>> Adelie
+=======
+    m_Target: {x: 1.394367, y: 0.6527314, z: 1.466775}
+    speed: 2
+    m_Value: {x: 1.394367, y: 0.6527314, z: 1.466775}
+>>>>>>> hyunjae
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1053,12 +1398,17 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+=======
+    m_Target: {x: 0.30776966, y: 0.29845586, z: -0.10233165, w: 0.8976256}
+>>>>>>> hyunjae
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0.30776945, y: 0.29845566, z: -0.10233158, w: 0.89762497}
   m_Size:
-    m_Target: 10
+    m_Target: 4.4337106
     speed: 2
+<<<<<<< HEAD
     m_Value: 10
 =======
     m_Target: {x: -0.060275167, y: 0.0032784855, z: -0.00020139004, w: -0.99821347}
@@ -1076,6 +1426,9 @@ MonoBehaviour:
 =======
     m_Value: 0.008270543
 >>>>>>> Adelie
+=======
+    m_Value: 4.6426287
+>>>>>>> hyunjae
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1101,10 +1454,14 @@ MonoBehaviour:
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &16
 =======
 --- !u!114 &18
 >>>>>>> Adelie
+=======
+--- !u!114 &19
+>>>>>>> hyunjae
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1125,6 +1482,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 507
     y: 94
     width: 1532
@@ -1135,6 +1493,12 @@ MonoBehaviour:
     width: 477
     height: 540
 >>>>>>> Adelie
+=======
+    x: 818
+    y: 73
+    width: 243
+    height: 631
+>>>>>>> hyunjae
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1146,13 +1510,17 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 1532, y: 769}
 =======
   m_TargetSize: {x: 477, y: 519}
 >>>>>>> Adelie
+=======
+  m_TargetSize: {x: 243, y: 610}
+>>>>>>> hyunjae
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
+  m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
@@ -1165,6 +1533,7 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
     m_VBaseRangeMin: -384.5
@@ -1175,6 +1544,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -259.5
     m_VBaseRangeMax: 259.5
 >>>>>>> Adelie
+=======
+    m_HBaseRangeMin: -121.5
+    m_HBaseRangeMax: 121.5
+    m_VBaseRangeMin: -305
+    m_VBaseRangeMax: 305
+>>>>>>> hyunjae
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1193,6 +1568,7 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 1532
       height: 769
     m_Scale: {x: 1, y: 1}
@@ -1203,12 +1579,19 @@ MonoBehaviour:
     m_Scale: {x: 1.092727, y: 1.092727}
     m_Translation: {x: 230.30186, y: 271.17538}
 >>>>>>> Adelie
+=======
+      width: 243
+      height: 610
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 121.5, y: 305}
+>>>>>>> hyunjae
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -766
       y: -384.5
@@ -1226,16 +1609,29 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 477, y: 540}
 >>>>>>> Adelie
+=======
+      x: -121.5
+      y: -305
+      width: 243
+      height: 610
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 243, y: 631}
+>>>>>>> hyunjae
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &17
 =======
 --- !u!114 &19
 >>>>>>> Adelie
+=======
+--- !u!114 &20
+>>>>>>> hyunjae
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1256,9 +1652,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 634
     width: 957
     height: 365
+=======
+    y: 725
+    width: 1535
+    height: 274
+>>>>>>> hyunjae
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

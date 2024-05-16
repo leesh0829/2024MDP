@@ -3,6 +3,7 @@
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 35942, "tid": 1, "ts": 1715069593889714, "dur": 501105, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1715069593890711, "dur": 64311, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1715069594312690, "dur": 2286, "ph": "X", "name": "OutputData.Write", "args": {} },
@@ -28,3 +29,12 @@
 { "pid": 35942, "tid": 1, "ts": 1715842185491044, "dur": 872, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1715842185490455, "dur": 1479, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 >>>>>>> Adelie
+=======
+{ "pid": 35942, "tid": 1, "ts": 1715241648672779, "dur": 554305, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1715241648673561, "dur": 79208, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1715241649153423, "dur": 3257, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1715241649156683, "dur": 70378, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1715241649157182, "dur": 49890, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1715241649230453, "dur": 875, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1715241649229874, "dur": 1474, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+>>>>>>> hyunjae
