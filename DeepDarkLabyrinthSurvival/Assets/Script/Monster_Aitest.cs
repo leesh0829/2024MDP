@@ -13,7 +13,7 @@ public class Monster_Aitest : MonoBehaviour
     //°ø°Ý¿©ºÎ
     private bool isAttacking = false;
     
-    private Animation ani;
+    private Animation ani2;
     private float stoptime = 5f;
     private float timer = 0f;
 
@@ -22,7 +22,7 @@ public class Monster_Aitest : MonoBehaviour
 
     private void Awake()
     {
-        ani = GetComponent<Animation>();
+        ani2 = GetComponent<Animation>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -36,7 +36,7 @@ public class Monster_Aitest : MonoBehaviour
 
 
 
-        ÃÑ¿¡ ¸Â¾ÒÀ» ¶§
+        //ÃÑ¿¡ ¸Â¾ÒÀ» ¶§
         if (collision.gameObject.CompareTag("bullet"))
         {
             //ÃÑ¾Ë ´êÀ¸¸é ÃÑ¾Ë ÆÄ±«
