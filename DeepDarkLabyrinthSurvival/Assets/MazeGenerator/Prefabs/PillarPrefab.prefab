@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3354022}
   - component: {fileID: 2325300}
   - component: {fileID: 6436760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PillarPrefab
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
