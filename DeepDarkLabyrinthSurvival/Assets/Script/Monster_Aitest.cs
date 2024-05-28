@@ -5,14 +5,13 @@ using UnityEngine;
 
 public class Monster_Aitest : MonoBehaviour
 {
-    public Animator ani;
-
     public float detectionRange = 10f;
     public float moveSpeed = 1f;
     private bool playscary = false;
     //°ø°Ý¿©ºÎ
     private bool isAttacking = false;
-    
+    private float atPlayer = 0f;
+
     private Animation ani;
     private float stoptime = 5f;
     private float timer = 0f;
@@ -36,15 +35,15 @@ public class Monster_Aitest : MonoBehaviour
 
 
 
-        ÃÑ¿¡ ¸Â¾ÒÀ» ¶§
-        if (collision.gameObject.CompareTag("bullet"))
-        {
+        //ÃÑ¿¡ ¸Â¾ÒÀ» ¶§
+        //if (collision.gameObject.CompareTag("bullet"))
+        //{
             //ÃÑ¾Ë ´êÀ¸¸é ÃÑ¾Ë ÆÄ±«
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
 
-            die();
+            //die();
 
-        }
+        //}
 
     }
 
