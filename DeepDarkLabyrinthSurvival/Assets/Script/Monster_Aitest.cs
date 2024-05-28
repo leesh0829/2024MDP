@@ -35,14 +35,14 @@ public class Monster_Aitest : MonoBehaviour
 
 
         //ÃÑ¿¡ ¸Â¾ÒÀ» ¶§
-        if (collision.gameObject.CompareTag("bullet"))
-        {
+        //if (collision.gameObject.CompareTag("bullet"))
+        //{
             //ÃÑ¾Ë ´êÀ¸¸é ÃÑ¾Ë ÆÄ±«
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
 
-            die();
+            //die();
 
-        }
+        //}
 
     }
 
