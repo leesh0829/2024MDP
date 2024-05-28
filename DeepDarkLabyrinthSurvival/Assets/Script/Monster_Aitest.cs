@@ -10,18 +10,17 @@ public class Monster_Aitest : MonoBehaviour
     private bool playscary = false;
     //공격여부
     private bool isAttacking = false;
+    private float atPlayer = 0f;
 
     private Animation ani;
     private float stoptime = 5f;
     private float timer = 0f;
 
     private GameObject player;
-    private MonsterManager monsterManager;
 
 
     private void Awake()
     {
-        monsterManager = GetComponent<MonsterManager>();
         ani = GetComponent<Animation>();
     }
 
@@ -31,7 +30,9 @@ public class Monster_Aitest : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             isAttacking = true;
+            //모든 몬스터 움직임 멈추게 하기 몬스터 메니저를 사용해서 전부 멈추게 하기
         }
+
 
 
         //총에 맞았을 때

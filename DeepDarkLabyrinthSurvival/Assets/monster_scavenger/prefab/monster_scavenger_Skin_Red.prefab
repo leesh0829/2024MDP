@@ -533,7 +533,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 14
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!136 &4825444435463062117
 CapsuleCollider:
