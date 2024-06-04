@@ -5,39 +5,50 @@ using UnityEngine;
 
 public class Monster_Aitest : MonoBehaviour
 {
-    public Animator ani;
 
-    public float detectionRange = 10f;
+    public float detectionRange = 5f;
     public float moveSpeed = 1f;
     private bool playscary = false;
     //공격여부
     private bool isAttacking = false;
+    //무적여부
+    private bool undiying = false;
     
-    private Animation ani2;
+    private Animation ani;
+    private float undying_time = 10f;
     private float stoptime = 5f;
     private float timer = 0f;
 
     private GameObject player;
 
 
+    //초기화
     private void Awake()
     {
-        ani2 = GetComponent<Animation>();
+        //아직 구현 안함 나중에 하기로 06/04
+        ani = GetComponent<Animation>();
+    }
+
+
+    private void Start()
+    {
+        player = GameObject.FindWithTag("Player");
+
+        //무적상태 코루틴 실행
+        StartCoroutine(undiying_corutin());
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         //플레이어랑 닿았을 때
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && !undiying)
         {
             isAttacking = true;
-            //모든 몬스터 움직임 멈추게 하기 몬스터 메니저를 사용해서 전부 멈추게 하기
         }
 
 
-
         //총에 맞았을 때
-        if (collision.gameObject.CompareTag("bullet"))
+        if (collision.gameObject.CompareTag("bullet") && !undiying)
         {
             //총알 닿으면 총알 파괴
             Destroy(collision.gameObject);
@@ -54,7 +65,6 @@ public class Monster_Aitest : MonoBehaviour
 
         if (playscary)
         {
-        //갑툭튀 여따 넣으셈, 멈추는 동안 실행 될 거임ㅇㅇ
             moveSpeed = 0;
             timer += Time.deltaTime;
         }
@@ -75,32 +85,42 @@ public class Monster_Aitest : MonoBehaviour
         //죽는 에니메이션 넣기
 
 
-            //삭제됨
-            Destroy(gameObject);
+        //삭제됨
+        Destroy(gameObject);
         
     }
 
+    IEnumerator undiying_corutin()
+    {
+        //일정 시간동안 멈춤
+        undiying = true;
+        Debug.Log("무적상태 활성화");
+
+        yield return new WaitForSeconds(undying_time);
+        undiying = false;
+        Debug.Log("무적상태 비비비비활성화");
+    }
 
     private void FixedUpdate()
     {
-
-        player = GameObject.FindWithTag("Player");
         float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
-        // 플레이어가 일정 범위 내에 있으면
-        if (distanceToPlayer <= detectionRange)
+        // 플레이어가 일정 범위 내에 있으면 && 무적시간이 끝나있으면
+
+
+        if (distanceToPlayer <= detectionRange && !undiying)
         {
             //거리 측정
             Vector3 direction = (player.transform.position - transform.position).normalized;
 
             // 플레이어를 향해 이동
-            if (!isAttacking)
+            if (!isAttacking && !undiying)
             {
                 transform.LookAt(player.transform);
                 transform.Translate(direction * moveSpeed * Time.deltaTime, Space.World);
             }
 
-
-            if (isAttacking)
+            //공격 당할 시
+            if (isAttacking && !undiying)
             {
                 stopmove();
             }
