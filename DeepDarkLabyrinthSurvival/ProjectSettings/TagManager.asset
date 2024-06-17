@@ -10,6 +10,7 @@ TagManager:
   - SamplesInfoPanel
   - Monster
   - Wall
+  - bullet
   layers:
   - Default
   - TransparentFX
