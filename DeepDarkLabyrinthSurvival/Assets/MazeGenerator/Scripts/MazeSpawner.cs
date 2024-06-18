@@ -25,7 +25,8 @@ public class MazeSpawner : MonoBehaviour {
 	public float CellHeight = 5;
 	public bool AddGaps = true;
 	public GameObject GoalPrefab = null;
-
+	private int goalcount = 0;
+	public int MonstCNT = 0;
 	private BasicMazeGenerator mMazeGenerator = null;
 
 	void Start () {
@@ -74,13 +75,43 @@ public class MazeSpawner : MonoBehaviour {
 					tmp = Instantiate(Wall,new Vector3(x,0,z-CellHeight/2)+Wall.transform.position,Quaternion.Euler(0,180,0)) as GameObject;// back
 					tmp.transform.parent = transform;
 				}
-				if(cell.IsGoal && GoalPrefab != null){
+				if(cell.IsGoal && GoalPrefab != null)
+						{
+					if (goalcount < MonstCNT)
 					tmp = Instantiate(GoalPrefab,new Vector3(x,0,z), Quaternion.Euler(0,0,0)) as GameObject;
 					tmp.transform.parent = transform;
+					goalcount++;
 				}
 			}
 		}
-		if(Pillar != null){
+		
+		// 목표 개수에 도달하지 못한 경우, 추가적으로 GoalPrefab을 생성
+		while (goalcount < MonstCNT)
+		{
+			int row = Random.Range(0, Rows);
+			int column = Random.Range(0, Columns);
+			float x = column * (CellWidth + (AddGaps ? .2f : 0));
+			float z = row * (CellHeight + (AddGaps ? .2f : 0));
+			Collider[] hitColliders = Physics.OverlapSphere(new Vector3(x, 0, z), 0.1f);
+			bool isOccupied = false;
+			foreach (var hitCollider in hitColliders)
+			{
+				if (hitCollider.gameObject.CompareTag("Goal"))
+				{
+					isOccupied = true;
+					break;
+				}
+			}
+
+			if (!isOccupied)
+			{
+				GameObject tmp = Instantiate(GoalPrefab, new Vector3(x, 0, z), Quaternion.Euler(0, 0, 0)) as GameObject;
+				tmp.transform.parent = transform;
+				goalcount++;
+			}
+		}
+
+		if (Pillar != null){
 			for (int row = 0; row < Rows+1; row++) {
 				for (int column = 0; column < Columns+1; column++) {
 					float x = column*(CellWidth+(AddGaps?.2f:0));
