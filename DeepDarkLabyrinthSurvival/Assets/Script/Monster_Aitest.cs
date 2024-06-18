@@ -6,7 +6,7 @@ using UnityEngine;
 public class Monster_Aitest : MonoBehaviour
 {
     public float detectionRange = 5f;
-    public float moveSpeed = 1f;
+    public float moveSpeed = 3f;
     private bool playscary = false;
     private bool isAttacking = false;
     private bool undying = false;
@@ -81,7 +81,7 @@ public class Monster_Aitest : MonoBehaviour
     private void die()
     {
         // 죽는 애니메이션 트리거
-        animator.SetTrigger("Death");
+        animator.SetTrigger("death");
         // 죽는 애니메이션 재생 후 오브젝트 파괴
         StartCoroutine(Destroy());
     }
