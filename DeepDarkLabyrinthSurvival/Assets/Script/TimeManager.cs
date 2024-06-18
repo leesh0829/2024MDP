@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class TimeManager : MonoBehaviour
 {
-    private int Intermission = 20;
+    private int Intermission = 5;
     public Text ClockText;
     float time;
     public GameObject Room;

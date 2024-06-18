@@ -12,12 +12,14 @@ public class Monster_Aitest : MonoBehaviour
     private bool undying = false;
 
     private Animator animator; 
-    private float undying_time = 35f;
+    private float undying_time = 7f;
     private float little_undying_time = 5f;
 
     private float stoptime = 5f;
     private float timer = 0f;
+
     private int hitcount = 0;
+
 
     private GameObject player;
     //public GameObject JumpScare;
@@ -36,27 +38,37 @@ public class Monster_Aitest : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision collision)
+{
+    StartCoroutine(jumpScare());
+
+    if (GameManager.instance == null)
     {
-        StartCoroutine(jumpScare());
+        Debug.LogError("GameManager instance is null!");
+        return;
+    }
 
-        // 플레이어랑 닿았을 때
-        if (collision.gameObject.CompareTag("Player") && !undying)
-        {
-            isAttacking = true;
-        }
+    // 플레이어랑 닿았을 때
+    if (collision.gameObject.CompareTag("Player") && !undying)
+    {
+        isAttacking = true;
+        GameManager.instance.GameOver();
+    }
 
-        // 총에 맞았을 때
-        if (collision.gameObject.CompareTag("bullet") && !undying)
+    // 총에 맞았을 때
+    if (collision.gameObject.CompareTag("bullet") && !undying)
+    {
+        // 총알 닿으면 총알 파괴
+        Destroy(collision.gameObject);
+        //체력 계산
+        hitcount++;
+        if (hitcount == 3)
         {
-            // 총알 닿으면 총알 파괴
-            Destroy(collision.gameObject);
-            hitcount++;
-            if (hitcount == 3)
-            {
-                die();
-            }
+            GameManager.instance.ClearGame();
+            die();
         }
     }
+}
+
 
     private void stopmove()
     {
@@ -80,7 +92,7 @@ public class Monster_Aitest : MonoBehaviour
 
     private void die()
     {
-        // 죽는 애니메이션 트리거
+        // 죽는 애니메이션 트리거 (솔직히 잘 모르겠음)
         animator.SetTrigger("death");
         // 죽는 애니메이션 재생 후 오브젝트 파괴
         StartCoroutine(Destroy());
