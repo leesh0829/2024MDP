@@ -20,6 +20,7 @@ public class Monster_Aitest : MonoBehaviour
     private int hitcount = 0;
 
     private GameObject player;
+    //public GameObject JumpScare;
 
     private void Awake()
     {
@@ -36,6 +37,8 @@ public class Monster_Aitest : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        StartCoroutine(jumpScare());
+
         // 플레이어랑 닿았을 때
         if (collision.gameObject.CompareTag("Player") && !undying)
         {
@@ -81,6 +84,13 @@ public class Monster_Aitest : MonoBehaviour
         animator.SetTrigger("Death");
         // 죽는 애니메이션 재생 후 오브젝트 파괴
         StartCoroutine(Destroy());
+    }
+
+    IEnumerator jumpScare()
+    {
+        GameObject JumpScare = GameObject.Find("JumpScare");
+        JumpScare.gameObject.SetActive(true);
+        yield break;
     }
 
     private IEnumerator Destroy()
