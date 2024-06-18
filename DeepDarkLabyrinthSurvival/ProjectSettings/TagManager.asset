@@ -11,6 +11,7 @@ TagManager:
   - Monster
   - Wall
   - bullet
+  - SubCamera
   layers:
   - Default
   - TransparentFX

@@ -20,7 +20,8 @@ public class Monster_Aitest : MonoBehaviour
     private int hitcount = 0;
 
     private GameObject player;
-    //public GameObject JumpScare;
+    public GameObject subcamera;
+    public bool CamSke = false;
 
     private void Awake()
     {
@@ -30,6 +31,7 @@ public class Monster_Aitest : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindWithTag("Player");
+        subcamera = GameObject.FindWithTag("SubCamera");
 
         // 무적상태 코루틴 실행
         StartCoroutine(undying_coroutine());
@@ -37,12 +39,12 @@ public class Monster_Aitest : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        StartCoroutine(jumpScare());
 
         // 플레이어랑 닿았을 때
         if (collision.gameObject.CompareTag("Player") && !undying)
         {
             isAttacking = true;
+            StartCoroutine(jumpScare());
         }
 
         // 총에 맞았을 때
@@ -88,8 +90,11 @@ public class Monster_Aitest : MonoBehaviour
 
     IEnumerator jumpScare()
     {
-        GameObject JumpScare = GameObject.Find("JumpScare");
-        JumpScare.gameObject.SetActive(true);
+        subcamera.transform.GetChild(0).gameObject.SetActive(true);
+        CamSke = true;
+        yield return new WaitForSeconds(3);
+        subcamera.transform.GetChild(0).gameObject.SetActive(false);
+
         yield break;
     }
 
