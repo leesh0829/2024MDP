@@ -5,7 +5,16 @@ using System.Collections;
 //Game object, that creates maze and instantiates it in scene
 //</summary>
 public class MazeSpawner : MonoBehaviour {
-	public enum MazeGenerationAlgorithm{
+
+	public static MazeSpawner instance;
+    private void Awake()
+    {
+        if (MazeSpawner.instance == null)
+        {
+            MazeSpawner.instance = this;
+        }
+    }
+    public enum MazeGenerationAlgorithm{
 		PureRecursive,
 		RecursiveTree,
 		RandomTree,
