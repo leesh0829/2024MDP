@@ -28,6 +28,7 @@ public class Monster_Aitest : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>(); // Animator 컴포넌트 초기화
+
         if(Monster_Aitest.instance == null )
         {
             Monster_Aitest.instance = this;
@@ -98,11 +99,11 @@ public class Monster_Aitest : MonoBehaviour
     IEnumerator jumpScare()
     {
         subcamera.transform.GetChild(0).gameObject.SetActive(true);
-        CamSke = true;
         JSAnime = true;
+        //CamSke = true;
         yield return new WaitForSeconds(3);
         JSAnime = false;
-        CamSke = false;
+        //CamSke = false;
         subcamera.transform.GetChild(0).gameObject.SetActive(false);
         yield break;
     }
