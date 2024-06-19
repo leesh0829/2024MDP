@@ -63,6 +63,7 @@ public class Monster_Aitest : MonoBehaviour
             hitcount++;
             if (hitcount == 3)
             {
+                GameManager.instance.ClearGame();
                 die();
             }
         }
@@ -119,11 +120,10 @@ public class Monster_Aitest : MonoBehaviour
     {
         // 일정 시간 동안 무적 상태
         undying = true;
-        Debug.Log("무적상태 활성화");
+
 
         yield return new WaitForSeconds(undying_time);
         undying = false;
-        Debug.Log("무적상태 비활성화");
     }
 
     // 잠시 무적시간
@@ -131,11 +131,9 @@ public class Monster_Aitest : MonoBehaviour
     {
         // 일정 시간 동안 무적 상태
         undying = true;
-        Debug.Log("무적상태 활성화");
 
         yield return new WaitForSeconds(little_undying_time);
         undying = false;
-        Debug.Log("무적상태 비활성화");
     }
 
     private void FixedUpdate()
@@ -157,6 +155,7 @@ public class Monster_Aitest : MonoBehaviour
             // 공격 당할 시
             if (isAttacking && !undying)
             {
+                GameManager.instance.GameOver();
                 stopmove();
                 StartCoroutine(little_undying_coroutine());
             }

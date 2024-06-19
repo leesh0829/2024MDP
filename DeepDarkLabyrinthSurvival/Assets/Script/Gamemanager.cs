@@ -17,12 +17,12 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-            Debug.Log("GameManager instance set--------------");
+            Debug.Log("½Ì±ÛÅæ ÆÐÅÏ »ý¼º µÊ");
         }
         else if (instance != this)
         {
             Destroy(gameObject);
-            Debug.Log("Duplicate GameManager destroyed--------------------");
+            Debug.Log("½ÇÆÐ--------------------");
         }
     }
 
@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
         else
         {
             attcount++;
-            Debug.Log("Attack count: " + attcount);
+            Debug.Log("attcount" + attcount);
         }
     }
 
@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour
         else
         {
             hitcount++;
-            Debug.Log("Hit count: " + hitcount);
+            Debug.Log("hitcount: " + hitcount);
         }
     } 
 
