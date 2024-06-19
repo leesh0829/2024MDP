@@ -22,10 +22,17 @@ public class Monster_Aitest : MonoBehaviour
     private GameObject player;
     public GameObject subcamera;
     public bool CamSke = false;
+    public bool JSAnime = false;
+    public static Monster_Aitest instance;
 
     private void Awake()
     {
         animator = GetComponent<Animator>(); // Animator 컴포넌트 초기화
+        if(Monster_Aitest.instance == null )
+        {
+            Monster_Aitest.instance = this;
+        }
+
     }
 
     private void Start()
@@ -92,9 +99,11 @@ public class Monster_Aitest : MonoBehaviour
     {
         subcamera.transform.GetChild(0).gameObject.SetActive(true);
         CamSke = true;
+        JSAnime = true;
         yield return new WaitForSeconds(3);
+        JSAnime = false;
+        CamSke = false;
         subcamera.transform.GetChild(0).gameObject.SetActive(false);
-
         yield break;
     }
 
