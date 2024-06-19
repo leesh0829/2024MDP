@@ -11,18 +11,30 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        Debug.LogWarning("GameManager Awake called");
+
         if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            Debug.Log("GameManager instance set--------------");
         }
-        else
+        else if (instance != this)
         {
             Destroy(gameObject);
+            Debug.Log("Duplicate GameManager destroyed--------------------");
         }
     }
 
-public void ClearGame()
+    private void Start()
+    {
+        if (player == null)
+        {
+            player = GameObject.FindWithTag("Player");
+        }
+    }
+
+    public void ClearGame()
     {
         if(attcount == 10)
         {
@@ -32,6 +44,7 @@ public void ClearGame()
         else
         {
             attcount++;
+            Debug.Log("Attack count: " + attcount);
         }
     }
 
@@ -45,6 +58,7 @@ public void ClearGame()
         else
         {
             hitcount++;
+            Debug.Log("Hit count: " + hitcount);
         }
     } 
 
