@@ -5,18 +5,26 @@ using UnityEngine;
 
 public class Monster_Aitest : MonoBehaviour
 {
+    //플레이어 감지 거리
     public float detectionRange = 5f;
+    //이동속도
     public float moveSpeed = 3f;
+   
     private bool playscary = false;
     private bool isAttacking = false;
     private bool undying = false;
 
     private Animator animator; 
-    private float undying_time = 35f;
+    //시작 무적시간
+    private float undying_time = 7f;
+    //일시 무적시간
     private float little_undying_time = 5f;
 
+    //멈추는 시간
     private float stoptime = 5f;
     private float timer = 0f;
+
+    //몬스터 총 히트카운터
     private int hitcount = 0;
 
     private GameObject player;
@@ -45,17 +53,26 @@ public class Monster_Aitest : MonoBehaviour
         {
             isAttacking = true;
             StartCoroutine(jumpScare());
+
+
         }
 
         // 총에 맞았을 때
         if (collision.gameObject.CompareTag("bullet") && !undying)
         {
-            // 총알 닿으면 총알 파괴
-            Destroy(collision.gameObject);
-            hitcount++;
+            
             if (hitcount == 3)
             {
                 die();
+                GameManager.instance.ClearGame();
+            }
+            else
+            {
+                hitcount++;
+                Debug.Log("Monster hit count: " + hitcount); // Monster hitcount 증가 확인
+                //총알 파괴
+                Destroy(collision.gameObject);
+
             }
         }
     }
@@ -90,12 +107,12 @@ public class Monster_Aitest : MonoBehaviour
 
     IEnumerator jumpScare()
     {
+        Debug.Log("갑툭튀");
+
         subcamera.transform.GetChild(0).gameObject.SetActive(true);
         CamSke = true;
         yield return new WaitForSeconds(3);
         subcamera.transform.GetChild(0).gameObject.SetActive(false);
-
-        yield break;
     }
 
     private IEnumerator Destroy()
@@ -147,6 +164,10 @@ public class Monster_Aitest : MonoBehaviour
             // 공격 당할 시
             if (isAttacking && !undying)
             {
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.GameOver();
+                }
                 stopmove();
                 StartCoroutine(little_undying_coroutine());
             }
