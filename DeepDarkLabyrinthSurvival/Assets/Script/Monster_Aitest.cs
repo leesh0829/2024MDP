@@ -2,7 +2,6 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Monster_Aitest : MonoBehaviour
 {
@@ -25,9 +24,6 @@ public class Monster_Aitest : MonoBehaviour
     public bool CamSke = false;
     public bool JSAnime = false;
     public static Monster_Aitest instance;
-    protected float curHealth; //ÇöÀç Ã¼·Â
-    public float maxHealth = 3;  //ÃÖ´ë Ã¼·Â
-    public Slider HpBarSlider;
 
     private void Awake()
     {
@@ -50,6 +46,7 @@ public class Monster_Aitest : MonoBehaviour
         SetHp();
     }
 
+<<<<<<< HEAD
     public void SetHp()
     {
         curHealth = maxHealth;
@@ -62,6 +59,8 @@ public class Monster_Aitest : MonoBehaviour
             HpBarSlider.value = curHealth / maxHealth;
     }
 
+=======
+>>>>>>> parent of 1b1f6a48 (HPBar)
     private void OnCollisionEnter(Collision collision)
     {
 
@@ -77,13 +76,8 @@ public class Monster_Aitest : MonoBehaviour
         {
             // ÃÑ¾Ë ´êÀ¸¸é ÃÑ¾Ë ÆÄ±«
             Destroy(collision.gameObject);
-            if (maxHealth != 0 || curHealth >= 0)
-            {
-                curHealth--;
-                CheckHp();
-            }
             hitcount++;
-            if (hitcount == 3 && curHealth <= 0)
+            if (hitcount == 3)
             {
                 Gamemanager.instance.ClearGame();
                 die();
