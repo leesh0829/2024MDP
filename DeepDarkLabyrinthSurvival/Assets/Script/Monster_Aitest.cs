@@ -2,7 +2,6 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Monster_Aitest : MonoBehaviour
 {
@@ -11,7 +10,8 @@ public class Monster_Aitest : MonoBehaviour
     private bool playscary = false;
     private bool isAttacking = false;
     private bool undying = false;
-    private Animator animator;
+
+    private Animator animator; 
     private float undying_time = 25f;
     private float little_undying_time = 5f;
 
@@ -24,15 +24,12 @@ public class Monster_Aitest : MonoBehaviour
     public bool CamSke = false;
     public bool JSAnime = false;
     public static Monster_Aitest instance;
-    protected float curHealth; //현재 체력
-    public float maxHealth = 3;  //최대 체력
-    public Slider HpBarSlider;
 
     private void Awake()
     {
         animator = GetComponent<Animator>(); // Animator 컴포넌트 초기화
 
-        if (Monster_Aitest.instance == null)
+        if(Monster_Aitest.instance == null )
         {
             Monster_Aitest.instance = this;
         }
@@ -46,19 +43,6 @@ public class Monster_Aitest : MonoBehaviour
 
         // 무적상태 코루틴 실행
         StartCoroutine(undying_coroutine());
-        SetHp();
-    }
-
-    public void SetHp()
-    {
-        curHealth = maxHealth;
-        HpBarSlider.value = curHealth / maxHealth;
-    }
-
-    public void CheckHp()
-    {
-        if (HpBarSlider != null)
-            HpBarSlider.value = curHealth / maxHealth;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -76,13 +60,8 @@ public class Monster_Aitest : MonoBehaviour
         {
             // 총알 닿으면 총알 파괴
             Destroy(collision.gameObject);
-            if (maxHealth != 0 || curHealth >= 0)
-            {
-                curHealth--;
-                CheckHp();
-            }
             hitcount++;
-            if (hitcount == 3 && curHealth <= 0)
+            if (hitcount == 3)
             {
                 Gamemanager.instance.ClearGame();
                 die();
