@@ -519,6 +519,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detectionRange: 10
   moveSpeed: 1
+  subcamera: {fileID: 0}
+  CamSke: 0
+  JSAnime: 0
 --- !u!54 &-7653398191542922405
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -545,10 +548,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.25263676
+  m_Radius: 0.43749642
   m_Height: 1.4839418
   m_Direction: 1
-  m_Center: {x: 0.059066176, y: 0.72777164, z: 0.028278917}
+  m_Center: {x: 0.059066266, y: 0.72777164, z: 0.21313858}
 --- !u!95 &-7402931750744812241
 Animator:
   serializedVersion: 4
