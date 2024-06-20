@@ -112,8 +112,10 @@ public class Monster_Aitest : MonoBehaviour
 
     private void die()
     {
-        // 죽는 애니메이션 트리거
-        animator.SetTrigger("death");
+        // 죽는 애니메이션 트리거 (테스트 해보기)
+        animator.SetBool("death", true);
+        new WaitForSeconds(3);
+        animator.SetBool("death", false);
         // 죽는 애니메이션 재생 후 오브젝트 파괴
         StartCoroutine(Destroy());
     }
