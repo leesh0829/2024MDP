@@ -47,12 +47,13 @@ public class Monster_Aitest : MonoBehaviour
 
         // 公利惑怕 内风凭 角青
         StartCoroutine(undying_coroutine());
+        SetHp();
     }
 
-    public void SetHp(float amount)
+    public void SetHp()
     {
-        maxHealth = amount;
         curHealth = maxHealth;
+        HpBarSlider.value = curHealth / maxHealth;
     }
 
     public void CheckHp()
