@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class MonsterManager : MonoBehaviour
 {
-    private int MonCnt = MazeSpawner.instance.MonstCNT;
+    public int MonCnt = MazeSpawner.instance.goalcount;
     public Text MonText;
     
     // Start is called before the first frame update
@@ -17,6 +17,6 @@ public class MonsterManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MonText.text.ToString();
+        MonText.text = MonCnt.ToString();
     }
 }

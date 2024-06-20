@@ -34,8 +34,8 @@ public class MazeSpawner : MonoBehaviour {
 	public float CellHeight = 5;
 	public bool AddGaps = true;
 	public GameObject GoalPrefab = null;
-	private int goalcount = 0;
-	public int MonstCNT = 0;
+	public int goalcount = 0;
+	public int MonstCNT;
 	private BasicMazeGenerator mMazeGenerator = null;
 
 	void Start () {
@@ -103,14 +103,14 @@ public class MazeSpawner : MonoBehaviour {
 			float z = row * (CellHeight + (AddGaps ? .2f : 0));
 			Collider[] hitColliders = Physics.OverlapSphere(new Vector3(x, 0, z), 0.1f);
 			bool isOccupied = false;
-			foreach (var hitCollider in hitColliders)
+			/*foreach (var hitCollider in hitColliders)
 			{
 				if (hitCollider.gameObject.CompareTag("Goal"))
 				{
 					isOccupied = true;
 					break;
 				}
-			}
+			}*/
 
 			if (!isOccupied)
 			{

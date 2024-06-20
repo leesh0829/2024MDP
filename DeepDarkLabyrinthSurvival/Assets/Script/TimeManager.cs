@@ -11,6 +11,27 @@ public class TimeManager : MonoBehaviour
     float time;
     public GameObject Room;
 
+    public static TimeManager instance;
+
+    public bool TimerOn = false;
+    public bool gamestart = false;
+    public bool chksrt;
+
+    private void Awake()
+    {
+        chksrt = true;
+        if (instance == null)
+        {
+            instance = this;
+            //DontDestroyOnLoad(gameObject);
+        }
+        else if (instance != this)
+        {
+            //Destroy(gameObject);
+            Debug.Log("½ÇÆÐ--------------------");
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +47,21 @@ public class TimeManager : MonoBehaviour
 
         if(((int)time % 60) == 0)
         {
+            GameStart();
             //player.transform.Translate(new Vector3(0, 1, 92));
             //Room.transform.position = new Vector3(0, 0, 4);
+        }
+    }
+
+    private void GameStart()
+    {
+        if(chksrt)
+        {
             Room.SetActive(false);
+            TimeLimitManager.instance.time = 300;
+            TimerOn = true;
+            gamestart = true;
+            chksrt = false;
         }
     }
 

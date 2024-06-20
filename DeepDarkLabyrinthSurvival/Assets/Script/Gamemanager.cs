@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class Gamemanager : MonoBehaviour
 {
-    public static GameManager instance;
+    public static Gamemanager instance;
     private int attcount = 0;
     private int hitcount = 0;
     public GameObject player;
@@ -16,12 +17,12 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
             Debug.Log("싱글톤 패턴 생성 됨");
         }
         else if (instance != this)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
             Debug.Log("실패--------------------");
         }
     }
@@ -34,12 +35,26 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (TimeManager.instance.gamestart == true)
+        {
+            if (TimeLimitManager.instance.time <= 0)
+            {
+                Debug.Log("타임 오버");
+                GameOver();
+            }
+        }
+    }
+
     public void ClearGame()
     {
         if(attcount == 10)
         {
-            //클리어방 이동
-            player.transform.Translate(new Vector3(-20, 0, -20));
+            //클리어방 이동]
+            TimeManager.instance.gamestart = false;
+            TimeManager.instance.TimerOn = false;
+            SceneManager.LoadScene("GameClear");
         }
         else
         {
@@ -50,10 +65,12 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        if(hitcount == 3)
+        if(hitcount == 1)
         {
             //게임오버방 이동
-            player.transform.Translate(new Vector3(-10, 0, -10));
+            TimeManager.instance.gamestart = false;
+            TimeManager.instance.TimerOn = false;
+            SceneManager.LoadScene("GameOver");
         }
         else
         {

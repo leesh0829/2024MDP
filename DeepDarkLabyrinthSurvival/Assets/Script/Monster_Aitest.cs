@@ -63,7 +63,7 @@ public class Monster_Aitest : MonoBehaviour
             hitcount++;
             if (hitcount == 3)
             {
-                GameManager.instance.ClearGame();
+                Gamemanager.instance.ClearGame();
                 die();
             }
         }
@@ -91,6 +91,7 @@ public class Monster_Aitest : MonoBehaviour
 
     private void die()
     {
+        MazeSpawner.instance.goalcount--;
         // 죽는 애니메이션 트리거
         animator.SetTrigger("death");
         // 죽는 애니메이션 재생 후 오브젝트 파괴
@@ -155,7 +156,7 @@ public class Monster_Aitest : MonoBehaviour
             // 공격 당할 시
             if (isAttacking && !undying)
             {
-                GameManager.instance.GameOver();
+                Gamemanager.instance.GameOver();
                 stopmove();
                 StartCoroutine(little_undying_coroutine());
             }
