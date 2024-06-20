@@ -7,13 +7,13 @@ using UnityEngine.UI;
 public class Monster_Aitest : MonoBehaviour
 {
     public float detectionRange = 5f;
-    public float moveSpeed = 7f;
+    public float moveSpeed = 3f;
     private bool playscary = false;
     private bool isAttacking = false;
     private bool undying = false;
 
     private Animator animator; 
-    private float undying_time = 25f;
+    private float undying_time = 35f;
     private float little_undying_time = 5f;
 
     private float stoptime = 5f;
@@ -113,6 +113,7 @@ public class Monster_Aitest : MonoBehaviour
 
     private void die()
     {
+        MazeSpawner.instance.goalcount--;
         // 죽는 애니메이션 트리거
         animator.SetTrigger("death");
         // 죽는 애니메이션 재생 후 오브젝트 파괴

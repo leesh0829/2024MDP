@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Gamemanager : MonoBehaviour
 {
     public static Gamemanager instance;
-    public int attcount = 0;
+    private int attcount = 0;
     private int hitcount = 0;
     public GameObject player;
 
@@ -49,17 +49,17 @@ public class Gamemanager : MonoBehaviour
 
     public void ClearGame()
     {
-        if (attcount < MazeSpawner.instance.MonstCNT)
+        if(attcount == 10)
         {
-            attcount++;
-            Debug.Log("attcount" + attcount);
-        }
-        if(attcount >= MazeSpawner.instance.MonstCNT)
-        {
-            //클리어방 이동
+            //클리어방 이동]
             TimeManager.instance.gamestart = false;
             TimeManager.instance.TimerOn = false;
             SceneManager.LoadScene("GameClear");
+        }
+        else
+        {
+            attcount++;
+            Debug.Log("attcount" + attcount);
         }
     }
 

@@ -58,7 +58,7 @@ public class TimeManager : MonoBehaviour
         if(chksrt)
         {
             Room.SetActive(false);
-            TimeLimitManager.instance.time = 210;
+            TimeLimitManager.instance.time = 300;
             TimerOn = true;
             gamestart = true;
             chksrt = false;
