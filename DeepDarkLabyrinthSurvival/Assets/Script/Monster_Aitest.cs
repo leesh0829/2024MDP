@@ -109,7 +109,7 @@ public class Monster_Aitest : MonoBehaviour
     {
         MazeSpawner.instance.goalcount--;
         // 죽는 애니메이션 트리거
-        animator.SetTrigger("death");
+        animator.SetBool("death", true);
         // 죽는 애니메이션 재생 후 오브젝트 파괴
         StartCoroutine(Destroy());
     }
