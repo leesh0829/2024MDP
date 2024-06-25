@@ -5,7 +5,7 @@ using UnityEngine;
 public class JumpScareAnimation : MonoBehaviour
 {
     private Animator animator;
-
+    
     private void Awake()
     {
         animator = GetComponent<Animator>(); // Animator 컴포넌트 초기화

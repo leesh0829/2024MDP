@@ -18,7 +18,7 @@ public class MonsterManager : MonoBehaviour
     {
         int MonCnt = MazeSpawner.instance.MonstCNT;
         int MonAtt = Gamemanager.instance.attcount;
-        Debug.Log("MM에서 처치 수:" +  MonAtt);
+        //Debug.Log("MM에서 처치 수:" +  MonAtt);
         MonText.text = (MonCnt-MonAtt).ToString();
     }
 }
