@@ -3369,7 +3369,7 @@ MonoBehaviour:
   m_modelMetaTouchProRightController: {fileID: 616886418}
   m_modelMetaTouchPlusLeftController: {fileID: 1736508457}
   m_modelMetaTouchPlusRightController: {fileID: 886707818}
-  m_controller: 2
+  m_controller: 64
   m_showState: 4
   showWhenHandsArePoweredByNaturalControllerPoses: 0
 --- !u!1001 &1239486922
@@ -4547,7 +4547,7 @@ MonoBehaviour:
   m_modelMetaTouchProRightController: {fileID: 890921305}
   m_modelMetaTouchPlusLeftController: {fileID: 336049327}
   m_modelMetaTouchPlusRightController: {fileID: 615354746}
-  m_controller: 1
+  m_controller: 32
   m_showState: 4
   showWhenHandsArePoweredByNaturalControllerPoses: 0
 --- !u!1001 &1950631715

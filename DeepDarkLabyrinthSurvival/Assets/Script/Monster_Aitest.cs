@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Monster_Aitest : MonoBehaviour
 {
     public float detectionRange = 5f;
-    public float moveSpeed = 7f;
+    public float moveSpeed = 1f;
     private bool playscary = false;
     private bool isAttacking = false;
     private bool undying = false;
@@ -178,9 +178,9 @@ public class Monster_Aitest : MonoBehaviour
             // 공격 당할 시
             if (isAttacking && !undying)
             {
-                Gamemanager.instance.GameOver();
                 stopmove();
                 StartCoroutine(little_undying_coroutine());
+                Gamemanager.instance.GameOver();
             }
         }
     }

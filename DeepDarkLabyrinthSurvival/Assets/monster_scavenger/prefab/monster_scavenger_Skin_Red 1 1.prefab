@@ -85,7 +85,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectionRange: 10
-  moveSpeed: 2
+  moveSpeed: 1
   subcamera: {fileID: 0}
   CamSke: 0
   JSAnime: 0
