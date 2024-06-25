@@ -1,4 +1,5 @@
 <h1>딥 다크 미궁 서바이벌</h1><br><br>
+<img src="DeepDarkLabyrinthSurvival/Assets/Image/Logo.png" alt="logo" />
 <h2>2024 MDP 프로젝트</h2><br><br>
 <h3>유니티 VR 게임 개발</h3><br><br>
 <h4>조원: </h4>
