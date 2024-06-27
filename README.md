@@ -11,7 +11,7 @@
 <i>맨눈으로는 보이지 않는 어두운 미로에 갇히게 된 주인공,
 가지고있는 손전등과 권총을 사용하여 갑자기 들이닫히는 정체불명의 괴물에게서 살아남아라!</i><br><br>
 <b>작품 설명 및 시연 영상 링크</b><br><br>
-<b></b>게임 설치 파일</b><br>
+<b>게임 설치 파일</b><br>
 <b>&#183;https://drive.google.com/file/d/11yYno_kA0mNxw_tFaETOEZDIdPyJiWHe/view?usp=drive_link</b><br><br>
 <b>작품 활동</b>
 <h6>&#183;2024 인천전자마이스터고 IM 기술 명장 대전</h6>
