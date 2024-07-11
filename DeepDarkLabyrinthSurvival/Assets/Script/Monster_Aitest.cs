@@ -37,6 +37,18 @@ public class Monster_Aitest : MonoBehaviour
             Monster_Aitest.instance = this;
         }
 
+        if (instance == null)
+        {
+            instance = this;
+            //DontDestroyOnLoad(gameObject);
+            Debug.Log("½Ì±ÛÅæ ÆÐÅÏ »ý¼º µÊ");
+        }
+        else if (instance != this)
+        {
+            //Destroy(gameObject);
+            Debug.Log("½ÇÆÐ--------------------");
+        }
+
     }
 
     private void Start()
@@ -90,6 +102,7 @@ public class Monster_Aitest : MonoBehaviour
         }
     }
 
+
     private void stopmove()
     {
         playscary = true;
@@ -120,7 +133,7 @@ public class Monster_Aitest : MonoBehaviour
         StartCoroutine(Destroy());
     }
 
-    IEnumerator jumpScare()
+    public IEnumerator jumpScare()
     {
         subcamera.transform.GetChild(0).gameObject.SetActive(true);
         JSAnime = true;

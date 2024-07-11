@@ -9,6 +9,8 @@ public class Gamemanager : MonoBehaviour
     public int attcount = 0;
     private int hitcount = 0;
     public GameObject player;
+    public GameObject bgm;
+    //public bool TimeOver = false;
 
     private void Awake()
     {
@@ -35,12 +37,14 @@ public class Gamemanager : MonoBehaviour
         }
     }
 
-    void Update()
+    public void Update()
     {
         if (TimeManager.instance.gamestart == true)
         {
             if (TimeLimitManager.instance.time <= 0)
             {
+                //TimeOver = true;
+                Monster_Aitest.instance.jumpScare();
                 Debug.Log("타임 오버");
                 GameOver();
             }
@@ -68,6 +72,7 @@ public class Gamemanager : MonoBehaviour
         if(hitcount == 1)
         {
             //게임오버방 이동
+            Destroy(bgm);
             TimeManager.instance.gamestart = false;
             TimeManager.instance.TimerOn = false;
             SceneManager.LoadScene("GameOver");
