@@ -17,6 +17,6 @@
 &#183;2024 인천광역시 직업 교육 박람회
 <h4>다른 작품 보기</h4>
  두번 째 프로젝트 모바일 탄막 피하기 게임:
-<A href = "https://github.com/hyunjae0912/dodge_game" target = "링크 방법" > GOAT </A>
+<A href = "https://github.com/hyunjae0912/dodge_game" target = "링크 방법" > GOAT </A> <br>
  세번 째 휭 스크롤 다 플랫폼 게임:
-<A href = "https://github.com/leesh0829/2024MDP_3" target = "링크 방법" > 인마고에서 공부만 하던 내가, 이 세계에서는 슬라임이 된 건에 대하여. </A> <br>
+<A href = "https://github.com/leesh0829/2024MDP_3" target = "링크 방법" > 인마고에서 공부만 하던 내가, 이 세계에서는 슬라임이 된 건에 대하여. </A>
