@@ -15,7 +15,6 @@
 <b><a href = "https://drive.google.com/file/d/11yYno_kA0mNxw_tFaETOEZDIdPyJiWHe/view?usp=sharing">&#183;게임 설치 파일</b><br><br><br>
 <b>작품 활동</b><br>
 &#183;2024 인천전자마이스터고 IM 기술 명장 대전<br>
-&#183;2024 인천광역시 직업 교육 박람회
 <h4>다른 작품 보기</h4>
  두번 째 프로젝트 모바일 탄막 피하기 게임:
 <A href = "https://github.com/hyunjae0912/dodge_game" target = "링크 방법" > GOAT </A> <br>
